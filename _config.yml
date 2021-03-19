@@ -1,27 +1,26 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://cookieplmonster.github.io"
-title: Silent's Blog
-description: "A blog and portfolio of Silent" # used by search engines
+url: "https://illusion0001.github.io"
+title: illusion's Blog
+description: "" # used by search engines
 permalink: pretty
 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Silent's Blog
-  avatar: assets/img/avatar.jpg
-  gravatar: B5015413CDD23101B12239A68DFFFC89
+  title: illusion's Blog
+  avatar: assets/icons/favicon.svg
 
   # Header and footer text
-  header_text: Personal, modding and reverse engineering related content.<br>Blog may or may not feature cookies.
-  header_feature_image: assets/img/site-header.png
+  header_text: Detailing the inner workings of my creations.
+  header_feature_image: assets/images/banners/lis-butterfly-banner.png
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
   # Icons
   rss: true
-  email_address: zdanio95@gmail.com
+  email_address: illusion3185@gmail.com
   behance:
   bitbucket:
   dribbble:
@@ -29,24 +28,24 @@ theme_settings:
   facebook:
   flickr:
   gitlab:
-  github: CookiePLMonster
-  github_sponsors: true
+  github: illusion0001
+  github_sponsors: false
   google_plus:
   instagram:
   keybase:
   linkedin:  # Full URL
   pinterest:
-  patreon: 32437453
-  paypal: AdrianZdanowicz
+  patreon: 
+  paypal: 
   reddit:
   soundcloud:
   stack_exchange:  # Full URL
-  steam: CookiePLMonster
+  steam: 
   tumblr:
-  twitter: __silent_
+  twitter: 
   vimeo:
   wordpress:
-  youtube: CookiePLMonster
+  youtube: 
 
   # Sharing options
   share_buttons:
@@ -63,8 +62,7 @@ theme_settings:
     email:
 
   # Scripts / Features
-  google_analytics: UA-119160362-1
-  disqus_shortname: cookieplmonster-github-io
+  google_analytics: UA-189385610-1
   katex:
 
   special_page:
@@ -90,7 +88,6 @@ theme_settings:
   str_next_page: "Next"
   str_previous_page: "Prev"
   str_continue_reading: "Continue reading"
-  str_javascript_required_disqus: "Please enable JavaScript to view comments."
   
   # Icons for buttons
   download_icon: "<i class='fas fa-download'></i>"
@@ -128,20 +125,20 @@ collections:
 
 # SEO
 twitter:
-  username: __silent_
+  username: 
   card: summary
 
 social:
-  name: Silent
+  name: 
   links:
-    - https://twitter.com/__silent_
-    - https://github.com/CookiePLMonster
+    - 
+    - 
 
 defaults:
   - scope:
       path: ""
     values:
-      image: /assets/img/avatar.jpg
+      image: assets/icons/favicon.svg
       date-format: "%B %-d, %Y"
   - scope:
       path: ""

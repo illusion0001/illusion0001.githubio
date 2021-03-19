@@ -19,7 +19,6 @@ systemInitiatedDark.addListener(function (systemDark) {
     changeIconTitle(systemDark.matches);
     document.documentElement.removeAttribute('data-theme');
     sessionStorage.removeItem('theme');
-    DISQUS.reset({reload: true});
 });
 
 function modeSwitcher() {
@@ -41,6 +40,5 @@ function modeSwitcher() {
         changeIconTitle(true);
         sessionStorage.setItem('theme', 'dark');
     }
-    DISQUS.reset({reload: true});
 }
 </script>
