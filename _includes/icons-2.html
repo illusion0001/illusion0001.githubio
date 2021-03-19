@@ -1,0 +1,23 @@
+{% if site.theme_settings.patreon %}
+<li>
+	<a href="https://www.patreon.com/bePatron?u={{ site.theme_settings.patreon }}" class="round-button patreon" role="button" target="_blank" title="Become a patron">
+        <i class="fab fa-patreon"></i> Become a patron
+	</a>
+</li>
+{% endif %}
+
+{% if site.theme_settings.github_sponsors %}
+<li>
+	<a href="https://github.com/sponsors/{{ site.theme_settings.github }}" class="round-button github" role="button" target="_blank" title="Become a sponsor">
+        <i class="fab fa-github-alt"></i> Become a sponsor
+	</a>
+</li>
+{% endif %}
+
+{% if site.theme_settings.paypal %}
+<li>
+	<a href="https://paypal.me/{{ site.theme_settings.paypal }}/0usd" class="round-button paypal" role="button" target="_blank" title="{{ site.theme_settings.str_support_via }} PayPal">
+        <i class="fab fa-paypal"></i> {{ site.theme_settings.str_support_via }} PayPal
+	</a>
+</li>
+{% endif %}

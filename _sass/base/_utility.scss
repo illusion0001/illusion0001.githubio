@@ -1,0 +1,221 @@
+// Mix-ins
+%padding-small {
+    padding: $padding-x-small $padding-x-small * 2;
+    @media (max-width: 1000px) {
+        padding: $padding-x-small $padding-x-small;
+    }
+}
+
+%padding-regular {
+    padding: $padding-small $padding-large;
+    @media (max-width: 1000px) {
+        padding: $padding-small * 1.5 $padding-large / 1.6;
+    }
+    @media (max-width: 576px) {
+        padding: $padding-small;
+    }
+}
+
+%padding-medium {
+    padding: $padding-medium $padding-large;
+    @media (max-width: 1000px) {
+        padding: $padding-medium * 1.5 $padding-large / 1.6;
+    }
+    @media (max-width: 576px) {
+        padding: $padding-medium;
+    }
+}
+
+.header-txt-shadow {
+    text-shadow: 1px 1px 2px $text-shadow;
+}
+
+// Buttons
+.button {
+    border-radius: 0.3em;
+    border: 1px solid;
+    display: inline-block;
+    margin: 1em 0;
+    padding: 0.5em 0.75em;
+}
+
+a.button {
+    @extend .button-link;
+}
+
+a.button.github {
+    color: var(--github-link-color);
+}
+
+a.button.docs {
+    color: var(--important-link-color);
+}
+
+a.button.forums {
+    color: var(--forums-link-color);
+}
+
+a.button.patreon {
+    color: $patreon-link-color;
+}
+
+a.button.paypal {
+    color: $paypal-link-color;
+}
+
+.button-link {
+    &:hover {
+        background: $link-color;
+        border: 1px solid $link-color;
+        color: $background-color;
+        text-decoration: none;
+    }
+}
+
+.button-link.github {
+    &:hover {
+        background: var(--github-link-color);
+        border-color: var(--github-link-color);
+    }
+}
+
+.button-link.docs {
+    &:hover {
+        background: var(--important-link-color);
+        border-color: var(--important-link-color);
+    }
+}
+
+.button-link.forums {
+    &:hover {
+        background: var(--forums-link-color);
+        border-color: var(--forums-link-color);
+    }
+}
+
+.button-link.patreon {
+    &:hover {
+        background: $patreon-link-color;
+        border-color: $patreon-link-color;
+    }
+}
+
+.button-link.paypal {
+    &:hover {
+        background: $paypal-link-color;
+        border-color: $paypal-link-color;
+    }
+}
+
+.round-button {
+    border-radius: 1.5em;
+    border: 1px solid;
+    display: inline-block;
+    margin: 1em 0;
+    padding: 0.5em 0.75em;
+}
+
+a.round-button {
+    @extend .round-button-link;
+}
+
+a.round-button.github {
+    background-color: var(--github-link-color);
+}
+
+a.round-button.docs {
+    background-color: var(--important-link-color);
+}
+
+a.round-button.forums {
+    background-color: var(--forums-link-color);
+}
+
+a.round-button.patreon {
+    background-color: $patreon-link-color;
+}
+
+a.round-button.paypal {
+    background-color: $paypal-link-color;
+}
+
+.round-button-link {
+    &:hover {
+        border: 1px solid $link-color;
+        text-decoration: none;
+    }
+    color: $background-color;
+}
+
+.round-button-link.github {
+    &:hover {
+        background: var(--github-link-hover-color);
+        border-color: var(--github-link-hover-color);
+    }
+    background: var(--github-link-color);
+    border-color: var(--github-link-color);
+}
+
+.round-button-link.docs {
+    &:hover {
+        background: var(--important-link-hover-color);
+        border-color: var(--important-link-hover-color);
+    }
+    background: var(--important-link-color);
+    border-color: var(--important-link-color);
+}
+
+.round-button-link.forums {
+    &:hover {
+        background: var(--forums-link-hover-color);
+        border-color: var(--forums-link-hover-color);
+    }
+    background: var(--forums-link-color);
+    border-color: var(--forums-link-color);
+}
+
+.round-button-link.patreon {
+    &:hover {
+        background: darken($patreon-link-color, 15%);
+        border-color: darken($patreon-link-color, 15%);
+    }
+    background: $patreon-link-color;
+    border-color: $patreon-link-color;
+}
+
+.round-button-link.paypal {
+    &:hover {
+        background: darken($paypal-link-color, 15%);
+        border-color: darken($paypal-link-color, 15%);
+    }
+    background: $paypal-link-color;
+    border-color: $paypal-link-color;
+}
+
+.body-link {
+    &:hover {
+        text-decoration: underline;
+        color: darken($link-color, 15%);
+    }
+}
+
+.post-link {
+    &:hover {
+        text-decoration: none;
+        color: lighten($link-color, 10%);
+    }
+}
+
+// States
+.disabled {
+    opacity: 0.7;
+}
+
+// Custom
+.text-center {
+    text-align: center;
+}
+
+.right {
+    float: right;
+}

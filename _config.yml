@@ -1,0 +1,172 @@
+# SITE CONFIGURATION
+baseurl: ""
+url: "https://cookieplmonster.github.io"
+title: Silent's Blog
+description: "A blog and portfolio of Silent" # used by search engines
+permalink: pretty
+
+
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  # Meta
+  title: Silent's Blog
+  avatar: assets/img/avatar.jpg
+  gravatar: B5015413CDD23101B12239A68DFFFC89
+
+  # Header and footer text
+  header_text: Personal, modding and reverse engineering related content.<br>Blog may or may not feature cookies.
+  header_feature_image: assets/img/site-header.png
+  footer_text: >
+   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+
+  # Icons
+  rss: true
+  email_address: zdanio95@gmail.com
+  behance:
+  bitbucket:
+  dribbble:
+  discord:
+  facebook:
+  flickr:
+  gitlab:
+  github: CookiePLMonster
+  github_sponsors: true
+  google_plus:
+  instagram:
+  keybase:
+  linkedin:  # Full URL
+  pinterest:
+  patreon: 32437453
+  paypal: AdrianZdanowicz
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam: CookiePLMonster
+  tumblr:
+  twitter: __silent_
+  vimeo:
+  wordpress:
+  youtube: CookiePLMonster
+
+  # Sharing options
+  share_buttons:
+    facebook: true
+    twitter: true
+    google_plus:
+    tumblr:
+    pinterest:
+    pocket:
+    reddit: true
+    hacker_news: true
+    linkedin:
+    wordpress:
+    email:
+
+  # Scripts / Features
+  google_analytics: UA-119160362-1
+  disqus_shortname: cookieplmonster-github-io
+  katex:
+
+  special_page:
+    search:
+      icon: "search" # Assuming page link and icon are the same
+      enabled: true
+    categories:
+      icon: "tags"
+      enabled: true
+
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_discord: "Join RockstarVision Discord, the fastest way to contact me"
+  str_support_via: "Support via"
+  str_share_on: "Share on"
+  str_add_to: "Add to"
+  str_email: "Email"
+  str_tweet: "Tweet"
+  str_pin_it: "Pin it"
+  str_next_post: "Next post"
+  str_previous_post: "Previous post"
+  str_next_page: "Next"
+  str_previous_page: "Prev"
+  str_continue_reading: "Continue reading"
+  str_javascript_required_disqus: "Please enable JavaScript to view comments."
+  
+  # Icons for buttons
+  download_icon: "<i class='fas fa-download'></i>"
+  github_icon: "<i class='fab fa-github'></i>"
+  docs_icon: "<i class='fas fa-book'></i>"
+  gtaf_icon: "<i class='fas icomoon icon-gtaf'></i>"
+  codemasters_icon: "<i class='fas icomoon icon-codemasters'></i>"
+
+  # Flags
+  pl_flag: "<img style='height:1em;padding: 0 0.5em' src='/assets/img/flags/pl.svg' alt='PL'>"
+  gb_flag: "<img style='height:1em;padding: 0 0.5em' src='/assets/img/flags/gb.svg' alt='GB'>"
+  eu_flag: "<img style='height:1em;padding: 0 0.5em' src='/assets/img/flags/eu.svg' alt='EU'>"
+  us_flag: "<img style='height:1em;padding: 0 0.5em' src='/assets/img/flags/us.svg' alt='US'>"
+  jp_flag: "<img style='height:1em;padding: 0 0.5em' src='/assets/img/flags/jp.svg' alt='JP'>"
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+
+  # Post navigation
+  post_navigation: true
+
+
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
+
+collections:
+  mods:
+  games:
+    output: true
+    permalink: /mods/:name/
+  portfolio:
+    output: true
+
+# SEO
+twitter:
+  username: __silent_
+  card: summary
+
+social:
+  name: Silent
+  links:
+    - https://twitter.com/__silent_
+    - https://github.com/CookiePLMonster
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/avatar.jpg
+      date-format: "%B %-d, %Y"
+  - scope:
+      path: ""
+      type: "games"
+    values:
+      game-series: ""
+      parent-series: ""
+      order: 0
+  - scope:
+      path: ""
+      type: "mods"
+    values:
+      excerpt: ""
+
+
+# PORTFOLIO
+
+
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
+plugins: [jekyll-gist, jekyll-paginate, jekyll-seo-tag, jekyll-redirect-from, jekyll-feed]
+#theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
+exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png", "assets/package.json", "assets/node_modules", "assets/gulpfile.js", ".idea/*", "scratch"]

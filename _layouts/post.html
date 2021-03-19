@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<article class="feature-image">
+  <header id="main"
+  {% if page.feature-img %}
+  style="background-image: url('{{ page.feature-img | relative_url }}')"
+  {% else %}
+  style="background-size: auto; background-image: url('{{ site.theme_settings.header_feature_image | relative_url }}')"
+  {% endif %}
+  >
+    <h1 id="{{ page.title | cgi_escape }}" class="title">{{ page.title | markdownify | strip_html }}</h1>
+    <p class="meta">
+	{% if page.custom-date %}{{ page.custom_date }}
+	{% else %}{{ page.date | date: page.date-format }}{% endif %}
+    {% if page.author %} - {{ page.author }}{% endif %}
+    </p>
+  </header>
+  <section class="post-content">
+  {% if page.bootstrap %}
+  <div class="bootstrap-iso">
+  {% endif %}
+    {{ content }}
+  {% if page.bootstrap %}
+  </div>
+  {% endif %}
+  </section>
+  
+  <!-- Social media shares -->
+  {% include share_buttons.html %}
+   
+   <!-- Tag list -->
+  {% capture tag_list %}{{ page.tags | join: "|"}}{% endcapture %}
+  {% include tags_list.html tags=tag_list %}
+</article>
+
+<!-- Disqus -->
+{% if site.theme_settings.disqus_shortname %}
+<div class="comments">
+  {% include disqus.html %}
+</div>
+{% endif %}
+
+<!-- Post navigation -->
+{% if site.theme_settings.post_navigation %}
+  {% include post_nav.html %}
+{% endif %}

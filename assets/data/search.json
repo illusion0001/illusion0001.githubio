@@ -1,0 +1,58 @@
+---
+---
+[
+  {% if site.theme_settings.special_page.search.enabled %}
+   {% assign game-mods=nil %}
+   {% assign game-titles=nil %}
+   {% assign game-urls=nil %}
+   {% for game in site.games %}
+	 {% assign m = site.mods | where: "game-series", game.game-series | sort: 'order' %}
+	 {% for mod in m %}
+	   {% assign title = game.title | compact %}
+	   {% assign url = game.url | compact %}
+	   {% assign game-titles = game-titles | concat: title %}
+	   {% assign game-urls = game-urls | concat: url %}
+	 {% endfor %}
+     {% assign game-mods = game-mods | concat: m %}
+   {% endfor %}
+   {% for mod in game-mods %}
+     {
+       {% if mod.title != nil %}
+          "title"    : "{{ mod.title | append: ' (' | append: game-titles[forloop.index0] | append: ')' | escape }}",
+          "category" : "Mods & Patches",
+          "tags"     : " ",
+          "url"      : "{{ mod.id | split: '/' | last | prepend: '#' | prepend: game-urls[forloop.index0] | relative_url }}",
+          "date"     : "{{ mod.date | date: "%B %-d, %Y" | default: ' ' }}",
+          "excerpt"  : {{ mod.content | truncate: '250' | jsonify }},
+          "content"  : {{ mod.content | truncate: '250' | jsonify }}
+       {% endif %}
+     } {% unless forloop.last %},{% endunless %}
+   {% endfor %}
+   {% if site.posts.size > 0 %},{% endif %}
+   {% for post in site.posts %}
+      {
+        "title"    : "{{ post.title | escape }}",
+        "category" : "Blog",
+        "tags"     : "<i class=\"fas fa-tag\"></i> {{ post.tags | join: ', ' | prepend: " " }}",
+        "url"      : "{{ post.url | relative_url }}",
+        "date"     : "{{ post.date | date: "%B %-d, %Y" }}",
+        "excerpt"  : {{ post.content | truncate: '250' | jsonify }},
+        "content"  : {{ post.content | jsonify }}
+      } {% unless forloop.last %},{% endunless %}
+   {% endfor %}
+   {% if site.portfolio.size > 0 %},{% endif %}
+   {% for page in site.portfolio %}
+     {
+       {% if page.title != nil %}
+          "title"    : "{{ page.title | escape }}",
+          "category" : "Portfolio",
+          "tags"     : " ",
+          "url"      : "{{ page.url | relative_url }}",
+          "date"     : "{{ page.date | date: "%B %-d, %Y" }}",
+          "excerpt"  : {{ page.content | truncate: '250' | jsonify }},
+          "content"  : {{ page.content | truncate: '250' | jsonify }}
+       {% endif %}
+     } {% unless forloop.last %},{% endunless %}
+   {% endfor %}
+  {% endif %}
+]

@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="home">
+  {% if site.theme_settings.header_text %}
+  <div id="main" class="call-out"
+  style="background-size: auto; background-image: url('{{ site.theme_settings.header_feature_image | relative_url }}')">
+    <h2 class="subtitle">{{ site.theme_settings.header_text }}</h2>
+  </div>
+  {% endif %}
+
+  {% include blog.html %}
+</div>

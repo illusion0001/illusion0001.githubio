@@ -1,0 +1,58 @@
+{% assign items = site.mods | where: "game-series", include.series | sort: 'order' %}
+{% for mod in items %}
+<div>
+    {% assign modid = mod.id | split: '/' | last %}
+    <div style="display:flex;justify-content:space-between;align-items:flex-end;">
+    <div style="display:flex;justify-content:space-between;align-items:center;">
+    <h1 id="{{ modid }}">
+    {% if mod.title-image %}
+        {% assign title-ext = mod.title-image | slice: -3, 3 | downcase %}
+        <img style="{% if title-ext == 'svg' %}width:{% else %}max-width:{% endif %} 400px;
+        padding: 0" src="{{ mod.title-image | relative_url }}" class="" alt="">
+    {% else %}
+        {{ mod.title | markdownify | strip_html }}
+    {% endif %}
+    </h1>
+    <div>
+    {% if mod.beta-caption %}
+        <span style="margin-left:.5em;" class="label label-danger" title="{{mod.beta-caption}}">BETA</span>
+    {% endif %}
+    {% if mod.deprecated-caption %}
+        <span style="margin-left:.5em;" class="label label-danger" title="{{mod.deprecated-caption}}">DEPRECATED</span>
+    {% endif %}
+    {% if mod.contribution %}
+    <span style="margin-left:.5em;" class="label label-info">CONTRIBUTION</span>
+    {% endif %}
+    </div>
+    </div>
+    <div style="margin: 1.34em 0;">
+    {% if mod.date %}
+    <div class="last-update">
+        Last update: {{ mod.date | date: page.date-format }}
+    </div>
+    {% endif %}
+    <div class="excerpt">   
+        {{ mod.excerpt }}
+    </div>
+    </div>
+    </div>
+    
+    <div class="panel panel-default">
+    <div class="panel-heading">
+    {% if items.size > 1 %}
+        <a class="expand-link" data-toggle="collapse" href="#{{modid}}-cps" role="button">Click to expand...</a>
+    {% else %}
+        &zwnj;
+    {% endif %}
+    </div>
+    {% if items.size > 1 %}
+    <div class="panel-body collapse" id="{{modid}}-cps">
+    {% else %}
+    <div class="panel-body">
+    {% endif %}
+        {{ mod }}
+    </div>
+    </div>
+</div>
+{% unless forloop.last %}<hr>{% endunless %}
+{% endfor %}

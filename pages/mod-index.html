@@ -1,0 +1,20 @@
+---
+layout: page
+title: "Mods & Patches"
+subtitle: My modifications and patches for various games.
+excerpt: My modifications and patches for various games.
+permalink: /mods/index/
+hide: true
+---
+
+<ul>
+{% assign items = site.games | sort: "title" %}
+{% for item in items %}
+{% unless item.hide %}
+{% assign modlist = site.mods | where: "game-series", item.game-series %}
+{% if modlist.size > 0 %}
+<li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+{% endif %}
+{% endunless %}
+{% endfor %} 
+</ul>
