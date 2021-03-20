@@ -1,7 +1,6 @@
 ---
 title: Infected's Severed Head Crash Bug Fix
-order: -100
-game-series: "nd-t1"
+game-series: "t1"
 excerpt: "Fixes a game breaking bug."
 date: 16-02-2021
 ---
