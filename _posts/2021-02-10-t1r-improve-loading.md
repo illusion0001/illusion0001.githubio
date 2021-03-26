@@ -6,15 +6,18 @@ categories: Patches
 tags: tlou ps4 patches bugfix
 ---
 
-*TL;DR - if you are not interested in an in-depth overview of how the patch was made, scroll down to the [**Patch**](https://illusion0001.github.io/patches/2021/02/10/t1r-improve-loading.html#patch) section for a download link.*
+*TL;DR - if you are not interested in an in-depth overview of how the patch was made, scroll down to the [**Patch**](#patch) section for a download link.*
 
 ***
 
-## Curiosity
+* TOC
+{:toc}
+
+# Curiosity
 
 It's been a while since The Last of Us Remastered was released for the PlayStation 4 since then I have been wondering why is the loading so slow when using the 30FPS mode. So I decided to investegate.
 
-## Intro
+# Intro
 
 Normally on Naughty Dog Titles, The developers used adaptive sync and allows the framerate to go completely unlocked and to stream assets faster.
 
@@ -104,9 +107,9 @@ Done!
 
 Let's test this change in game. The following video showcases this change aswell as a timer on screen.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/tZjIuAdALhE?start=9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/tZjIuAdALhE?start=9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Patch
+# Patch
 
 To install the patch, open `eboot.bin` with a hex editor and do a search and replace. build and install the patch back onto the console.
 

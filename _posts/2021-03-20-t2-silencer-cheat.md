@@ -11,11 +11,14 @@ tags: [Articles, Releases]
 twitter: {card: "summary_large_image"}
 ---
 
+* TOC
+{:toc}
+
 With the recent release of the [7.5x exploit](https://wololo.net/2021/03/17/ps4-7-55-jailbreak-sleirsgoevy-releases-updated-version/), I have an opportunity to make a cheat I wanted a reality.
 
 For those who have not played The Last of Us: Part II, there is now a proper cheat system. intended for players who have completed the game once.
 
-## Quiet or they'll find out
+# Quiet or they'll find out
 
 When activating a cheat, one expects it to do what it says in the title, right?
 
@@ -23,7 +26,7 @@ There’s a fault with one of the provided cheats, “Infinite Ammo” - Whether
 
 The issue with this cheat is that ammo still decreases for the silencer, one of the games craftable items for the Pistol.
 
-<video controls width="1280" height="720">
+<video controls >
   <source src="/assets/images/t2-silencer-cheat/t2-inf-ammo-demo.mp4" type="video/mp4">
 </video>
 <em>Video showing cheat active. But silencer ammo still decreasing.</em>
@@ -106,7 +109,11 @@ Replaced `DEC` instruction to call to our new location, setup a pointer, compare
 
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/ZRg-gr79vp8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## One More Thing
+# Patch
+
+<a href="https://github.com/illusion0001/illusion0001.github.io/blob/main/_patches/tlou2.md#improved-inf-ammo" class="button" role="button">{{ site.theme_settings.download_icon }} Patch Codes</a>
+
+# One More Thing
 
 As you may have noticed, The blog now has a new theme.
 
@@ -118,16 +125,12 @@ Also, here is Naughty Dog code for loading section on 1.11.
 
 <p align="center">
 <img src="{% link assets/images/t2-silencer-cheat/t1-111-load0.png %}">
-<em>Official Patch.</em>
 </p>
+<em>Official Patch.</em>
 
 <p align="center">
 <img src="{% link assets/images/t2-silencer-cheat/t1-110-load.png %}">
-<em>My Patch.</em>
 </p>
+<em>My Patch.</em>
 
 0x2c is framelock but the fact that it doesn't even work in the menu made me laughed a little.
-
-## Patch
-
-<a href="https://github.com/illusion0001/illusion0001.github.io/blob/main/_patches/tlou2.md#improved-inf-ammo" class="button" role="button">{{ site.theme_settings.download_icon }} Patch Codes</a>

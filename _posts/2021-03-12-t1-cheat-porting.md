@@ -6,10 +6,13 @@ categories: cheatcodes
 tags: tlou ps3 ps4 cheatcodes
 ---
 
+* TOC
+{:toc}
+
 Recently, I was browsing through the [ArtemisPS3 repository](https://github.com/bucanero/ArtemisPS3/tree/master/docs/codes) of cheats for PS3 and I found myself wondering... "why aren't these on the PS4?"
 Some of them look pretty useful, so let's see if we can port a few over, and perhaps improve them as well!
 
-## Looking for clues
+# Looking for clues
 
 I picked out a few cheats that seem reasonably affect Gameplay:
 
@@ -348,7 +351,7 @@ The Compare SUB allows for infinite items - when byte is enabled, parts, item, e
 
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/wesqEfidErg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Patch
+# Patch
 
 <a href="https://github.com/illusion0001/illusion0001.github.io/blob/main/_patches/tlou1.md#improved-cheat-codes" class="button" role="button">{{ site.theme_settings.download_icon }} Patch Codes</a>
 

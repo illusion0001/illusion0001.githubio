@@ -6,7 +6,10 @@ categories: Patches
 tags: uncharted uc2 ps3 rpcs3 ps4 patches bugfix
 ---
 
-## Intro
+* TOC
+{:toc}
+
+# Intro
 
 There's a rare bug in Uncharted 2 where if a player goes out of the normal playzone, dies, and quit to the menu, the game would crash.
 
@@ -46,21 +49,21 @@ Mira Log from PS4
 
 Data stops processing and left the registers with 0 when quitting to the menu during this specific case, causing the game to crash.
 
-RPCS3: During runtime
+RPCS3: Breakpoint runtime.
 
 ![](\assets\images\uc2-quit-menu-bug-fix\uc2-dbg-before.png)
 
-RPCS3: During crash
+RPCS3: Crash.
 
 ![](\assets\images\uc2-quit-menu-bug-fix\uc2-dbg-after-death.png)
 
 On Playstation 4, this is similar but in register R15 instead.
 
-PS4: Reaper Breakpoint during runtime.
+PS4: Reaper Breakpoint runtime.
 
 ![](\assets\images\uc2-quit-menu-bug-fix\ps4r-uc2-dbg1.png)
 
-PS4: Mira backtrace when crash.
+PS4: Mira backtrace.
 
 ![](\assets\images\uc2-quit-menu-bug-fix\ps4-uc2-crash-backtrace-mira.png)
 
@@ -104,11 +107,11 @@ Skip to load 1 into their needed register skip and return to normal code if isn'
 
 Let's implement this fix and see the results.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/UdDs6-ZT8gw?start=31" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/UdDs6-ZT8gw?start=31" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Awesome! No longer crashing when quitting to the menu.
 
-## Patch
+# Patch
 
 To apply patch and for use on an exploitable PlayStation 3 or PlayStation 4 console, you'll to modify the executable with a hex editor and install it back onto the console.
 

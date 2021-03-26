@@ -11,7 +11,10 @@ Your move. Naughty Dog.
 
 ***
 
-## Intro
+* TOC
+{:toc}
+
+# Intro
 
 Usually, when an NPC, actor, or Player's buddies does an action where they would cut Infected's Head off, they leave behind a severed head. 
 
@@ -19,15 +22,15 @@ If a Player decided to throw an object, let's say a brick or bottle. The game wo
 
 Affected Consoles:
 
-- ~~PlayStation 3~~ [Unofficially Patched](https://illusion0001.github.io/patches/2021/02/15/t1-head-crash-bug-fix.html)
+- ~~PlayStation 3~~ [Unofficially Patched](https://illusion0001.github.io/patches/2021/02/15/t1-head-crash-bug-fix/)
 
-- ~~PlayStation 4~~ [Unofficially Patched](https://illusion0001.github.io/patches/2021/02/16/t1r-head-crash-bug-fix.html)
+- ~~PlayStation 4~~ [Unofficially Patched](https://illusion0001.github.io/patches/2021/02/16/t1r-head-crash-bug-fix/)
 
 - PlayStation 5 [Video](https://youtu.be/HQ7oOmx4mmg?t=127)
 
 - PS4/PS5 versions issue still persists on latest patch 1.11
 
-<video controls autoplay muted width="640" height="360">
+<video controls autoplay muted >
   <source src="\assets\images\t1-ps3-head-crash\t1-head-crash-before.mp4" type="video/mp4">
 </video>
 
@@ -76,11 +79,11 @@ We can add some data into Register 10 and additional check to prevent crashing.
 
 Let's implement this fix and see the results!
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/yDHUPHUYr1w?start=17" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/yDHUPHUYr1w?start=17" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Success! No longer crashes when throwing an object.
 
-## Patch
+# Patch
 
 To use patch on the RPCS3 Emulator, simply download and enable through Patch Manager.
 

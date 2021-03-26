@@ -11,7 +11,10 @@ Your move. Naughty Dog.
 
 ***
 
-## Intro
+* TOC
+{:toc}
+
+# Intro
 
 Usually, when an NPC, actor, or Player's buddies does an action where they would cut Infected's Head off, they leave behind a severed head. 
 
@@ -19,15 +22,15 @@ If a Player decided to throw an object, let's say a brick or bottle. The game wo
 
 Affected Consoles:
 
-- ~~PlayStation 3~~ [Unofficially Patched](https://illusion0001.github.io/patches/2021/02/15/t1-head-crash-bug-fix.html)
+- ~~PlayStation 3~~ [Unofficially Patched](https://illusion0001.github.io/patches/2021/02/15/t1-head-crash-bug-fix/)
 
-- ~~PlayStation 4~~ [Unofficially Patched](https://illusion0001.github.io/patches/2021/02/16/t1r-head-crash-bug-fix.html) ([Video](https://youtu.be/KCnMwV-jOoU))
+- ~~PlayStation 4~~ [Unofficially Patched](https://illusion0001.github.io/patches/2021/02/16/t1r-head-crash-bug-fix/) ([Video](https://youtu.be/KCnMwV-jOoU))
 
 - PlayStation 5 [Video](https://youtu.be/HQ7oOmx4mmg?t=127)
 
 - PS4/PS5 versions issue still persists on latest patch 1.11
 
-<video controls muted width="640" height="360">
+<video controls muted >
   <source src="\assets\images\t1r-ps4-head-crash\t1r-head-crash-before.mp4" type="video/mp4">
 </video>
 
@@ -63,15 +66,13 @@ We can do a check if RBX isn't 0 we can skip and run normally.
 
 Let's implement this fix and see the results.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/a5QEZGT7HOU?start=10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/a5QEZGT7HOU?start=10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Success! Doesn't crash now when throwing an object.
 
-## Patch
+# Patch
 
 To apply patch and for use on a exploitable PlayStation 4 console, you'll need to dump the game, modiify the executable with a hex editor and install the fake patch back onto the console.
-
-In Eboot.bin, Find and Replace
 
 <a href="https://github.com/illusion0001/illusion0001.github.io/blob/main/_patches/tlou1.md#infecteds-severed-head-crash-bug-fix" class="button" role="button">{{ site.theme_settings.download_icon }} Patch Codes</a>
 

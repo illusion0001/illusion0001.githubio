@@ -6,11 +6,14 @@ categories: Patches
 tags: tlou uncharted uc3 ps3 ps4 patches
 ---
 
+* TOC
+{:toc}
+
 Recently, I stumped upon a video by a speedrunner [Anthony Caliber](https://www.youtube.com/channel/UC4PlYBhe8mzGFW4lmIkIQsg) which shows a [Video](https://youtu.be/EaBFyrCyMbs?t=302) comparing differences between camera shakes.
 
 I'm not much of a fan of sprinting camera shake myself so let's see what we can do about it.
 
-## Diving into nothingness
+# Diving into nothingness
 
 Opening the executable in Ghidra and searching for `Disable Camera` gives few results. But these are just text strings, what are they for?
 
@@ -45,7 +48,7 @@ Let's activate this menu in-game.
 
 Three options. What we are interested here is `Disable Camera Additives` Let's see what happens when we enable it.
 
-<video controls width="1280" height="720">
+<video controls >
   <source src="\assets\images\t1-camshake\t1-camshake-demo.mp4" type="video/mp4">
 </video>
 
@@ -59,7 +62,7 @@ Going to `0x14f3412` in Memory and setting it to 1, does nothing. Why's that?
 
 `0x14f3412` seems to be `Show Camera Additives` as `final` build configs have most debugging features stripped out, it doesn't do anything. Let's try byte next to it. 
 
-<video controls width="1280" height="720">
+<video controls >
   <source src="\assets\images\t1-camshake\t1-rpcs3-camshake-demo.mp4" type="video/mp4">
 </video>
 
@@ -166,7 +169,7 @@ The video below showcases changes introduced by the Patch.
 
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/Zoz7e9jN6Xs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Patch
+# Patch
 
 To apply patch and for use on an exploitable PlayStation 3 or PlayStation 4 console, you'll have to modify the executable with a hex editor and install it back onto the console.
 
