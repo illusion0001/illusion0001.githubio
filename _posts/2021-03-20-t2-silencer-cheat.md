@@ -134,3 +134,5 @@ Also, here is Naughty Dog code for loading section on 1.11.
 <em>My Patch.</em>
 
 0x2c is framelock but the fact that it doesn't even work in the menu made me laughed a little.
+
+{% include_relative _supporters.md %}
