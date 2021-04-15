@@ -2,7 +2,7 @@
 
 To apply patch:
 
-PS4: Find and Replace. Open in hexeditor and search for first line and replace with second line. Repeat the same for remaining codes.
+PS4: Open decrypted executable (eboot.bin) in hexeditor and search for first line and replace with second line. Repeat the same for remaining codes.
 
 ## Improved Inf Ammo
 

@@ -2,9 +2,9 @@
 
 To apply patch:
 
-PS4: Find and Replace. Open in hexeditor and search for first line and replace with second line. Repeat the same for remaining codes.
+PS4: Open decrypted executable (eboot.bin) in hexeditor and search for first line and replace with second line. Repeat the same for remaining codes.
 
-PS3: Copy from first columnn and subtract 0x10000. and paste write from second columnn.
+PS3: Decrypt executable with [TrueAncestor SELF Resigner](https://www.psx-place.com/resources/trueancestor-self-resigner-by-jjkkyu.33/) Open decrypted executable (eboot.bin) in hexeditor, copy from first columnn and subtract 0x10000. and paste write from second columnn. Repeat the same for remaining codes.
 
 ## Improved Loading
 
