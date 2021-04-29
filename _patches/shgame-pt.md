@@ -5,6 +5,8 @@
 
 ## 60 FPS
 
+[Blog Post](https://illusion0001.github.io/patches/2021/04/29/pt-60fps/)
+
 Not very useful without resolution hack on PS4, Might be useful in the future for PS5 Hardware.
 
 This game uses double buffer vsync! If rendering budget does not meet target, will drop to half refresh rate.

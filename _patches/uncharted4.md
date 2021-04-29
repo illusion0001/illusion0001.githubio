@@ -20,6 +20,8 @@ F6 C2 01 75 34 84 C9 75 30
 
 ## Custom Resolution
 
+[Blog Post](https://illusion0001.github.io/patches/2021/04/16/u4-60fps-dream/)
+
 **WARNING**: This patch breaks chapter title cards and will be displayed incorrectly.
 
 [Example](https://cdn.discordapp.com/attachments/650395105479360514/832654624665763850/20210417_011904_00093533.png)
