@@ -166,4 +166,4 @@ sass:
   style: :compressed
 plugins: [jekyll-gist, jekyll-paginate, jekyll-seo-tag, jekyll-redirect-from, jekyll-feed]
 #theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
-exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png", "assets/package.json", "assets/node_modules", "assets/gulpfile.js", ".idea/*", "scratch"]
+exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png", "assets/package.json", "assets/node_modules", "assets/gulpfile.js", ".idea/*", "scratch", "_patches/*"]
