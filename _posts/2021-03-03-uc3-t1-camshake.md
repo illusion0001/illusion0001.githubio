@@ -48,11 +48,12 @@ Let's activate this menu in-game.
 
 Three options. What we are interested here is `Disable Camera Additives` Let's see what happens when we enable it.
 
+<center>
 <video controls >
   <source src="\assets\images\t1-camshake\t1-camshake-demo.mp4" type="video/mp4">
 </video>
-
-No more camera shakes!
+<em>No more Camera shakes!</em>
+</center>
 
 ## Smoking Mirrors
 
@@ -62,11 +63,12 @@ Going to `0x14f3412` in Memory and setting it to 1, does nothing. Why's that?
 
 `0x14f3412` seems to be `Show Camera Additives` as `final` build configs have most debugging features stripped out, it doesn't do anything. Let's try byte next to it. 
 
+<center>
 <video controls >
   <source src="\assets\images\t1-camshake\t1-rpcs3-camshake-demo.mp4" type="video/mp4">
 </video>
-
-Got it. No more camera shake for the PS3 version.
+<em>Got it. No more camera shake for the PS3 version.</em>
+</center>
 
 For The Last of Us, setting a breakpoint at startup and loading it's with register 11 as it holds value 1 setup by `009941e4 39 60 00 01     li         r11,0x1` made it work.
 

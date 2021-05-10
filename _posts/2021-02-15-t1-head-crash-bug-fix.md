@@ -29,11 +29,11 @@ Affected Consoles:
 - PlayStation 5 [Video](https://youtu.be/HQ7oOmx4mmg?t=127)
 
 - PS4/PS5 versions issue still persists on latest patch 1.11
-
+<center>
 <video controls autoplay muted >
   <source src="\assets\images\t1-ps3-head-crash\t1-head-crash-before.mp4" type="video/mp4">
 </video>
-
+</center>
 ## Finding what caused the crash
 
 When the game crashed, using an emulator we can see that it gives an access violation as well as the address it stopped.

@@ -30,9 +30,11 @@ Affected Consoles:
 
 - PS4/PS5 versions issue still persists on latest patch 1.11
 
+<center>
 <video controls muted >
   <source src="\assets\images\t1r-ps4-head-crash\t1r-head-crash-before.mp4" type="video/mp4">
 </video>
+</center>
 
 ## Cut to the Chase
 
