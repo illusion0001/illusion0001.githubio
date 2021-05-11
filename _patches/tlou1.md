@@ -10,7 +10,9 @@ PS3: Decrypt executable with [TrueAncestor SELF Resigner](https://www.psx-place.
 
 [Blog Post](https://illusion0001.github.io/patches/2021/02/10/t1r-improve-loading/)
 
-<details> 
+In file `eboot.bin`
+
+<details>
 <summary>Code PS4 (Click to Expand)</summary>
 
 ```
@@ -67,7 +69,9 @@ C6 80 DF 06 00 00 00 C6 80 30 00 00 00 01 44 89 F0 48 83 C4 08 5B 41 5E 41 5F 5D
 
 [Blog Post](https://illusion0001.github.io/patches/2021/02/15/t1-head-crash-bug-fix/)
 
-<details> 
+In file `eboot.bin`
+
+<details>
 <summary>Code PS3 (Click to Expand)</summary>
 
 ```
@@ -90,7 +94,9 @@ C6 80 DF 06 00 00 00 C6 80 30 00 00 00 01 44 89 F0 48 83 C4 08 5B 41 5E 41 5F 5D
 
 </details>
 
-<details> 
+In file `eboot.bin`
+
+<details>
 <summary>Code PS4 (Click to Expand)</summary>
 
 ```
@@ -147,7 +153,9 @@ E8 72 53 56 00 90 90 90 90 90 90
 
 [Blog Post](https://illusion0001.github.io/patches/2021/03/03/uc3-t1-camshake/)
 
-<details> 
+In file `eboot.bin`
+
+<details>
 <summary>Code PS3 (Click to Expand)</summary>
 
 ```
@@ -157,7 +165,9 @@ E8 72 53 56 00 90 90 90 90 90 90
 
 </details>
 
-<details> 
+In file `eboot.bin`
+
+<details>
 <summary>Code PS4 (Click to Expand)</summary>
 
 ```
@@ -178,7 +188,9 @@ C6 83 EC 06 00 00 01 C6 05 1C 8A 51 01 01
 
 [Blog Post](https://illusion0001.github.io/cheatcodes/2021/03/12/t1-cheat-porting/)
 
-<details> 
+In file `eboot.bin`
+
+<details>
 <summary>Code PS3 (Click to Expand)</summary>
 
 ```
@@ -229,7 +241,9 @@ Medo ported by Randy97Killa, Improved by illusion and ZEROx
 
 </details>
 
-<details> 
+In file `eboot.bin`
+
+<details>
 <summary>Code PS4 (Click to Expand)</summary>
 
 ```

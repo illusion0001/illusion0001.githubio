@@ -6,7 +6,9 @@ PS4: Open decrypted executable (eboot.bin) in hexeditor and search for first lin
 
 ## Dev Menu
 
-<details> 
+In file `eboot.bin`
+
+<details>
 <summary>Code (Click to Expand)</summary>
 
 ```
@@ -26,7 +28,9 @@ F6 C2 01 75 34 84 C9 75 30
 
 [Example](https://cdn.discordapp.com/attachments/650395105479360514/832654624665763850/20210417_011904_00093533.png)
 
-<details> 
+In file `eboot.bin`
+
+<details>
 <summary>Code only for 1.00 (Disc Ver.) (Click to Expand)</summary>
 
 ```
@@ -54,7 +58,9 @@ C7 80 50 0C 00 00 01 00 00 00
 
 </details>
 
-<details> 
+In file `eboot.bin`
+
+<details>
 <summary>How to use (Click to Expand)</summary>
 
 Install custom resolution and dev menu patch above

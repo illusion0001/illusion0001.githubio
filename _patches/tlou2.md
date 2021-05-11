@@ -8,7 +8,9 @@ PS4: Open decrypted executable (eboot.bin) in hexeditor and search for first lin
 
 [Blog Post](https://illusion0001.github.io/cheatcodes/2021/03/20/t2-silencer-cheat/)
 
-<details> 
+In file `eboot.bin`
+
+<details>
 <summary>Code PS4 (Click to Expand)</summary>
 
 ```

@@ -11,7 +11,9 @@ Not very useful without resolution hack on PS4, Might be useful in the future fo
 
 This game uses double buffer vsync! If rendering budget does not meet target, will drop to half refresh rate.
 
-<details> 
+In file `eboot.bin`
+
+<details>
 <summary>Code (Click to Expand)</summary>
 
 ```
@@ -24,7 +26,9 @@ be 00 00 00 00 e8 f3 51 2b 00
 
 ## Resolution Hack (Borked)
 
-<details> 
+In file `eboot.bin`
+
+<details>
 <summary>Code (Click to Expand)</summary>
 
 ```

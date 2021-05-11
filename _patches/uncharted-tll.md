@@ -10,7 +10,9 @@ Note: You'll not be able to set resolution lower than 720p. Possibly SDK Limits.
 
 Patch is untested on PS4 Pro HW, likely needs adjustments due to separate buffers setup.
 
-<details> 
+In file `eboot.bin`
+
+<details>
 <summary>Code for 1.00 (Disc Ver.) (Click to Expand)</summary>
 
 ```

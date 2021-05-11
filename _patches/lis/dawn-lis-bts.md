@@ -6,7 +6,9 @@
 
 CUSA08487, may work for other versions too.
 
-<details> 
+In file `eboot.bin`
+
+<details>
 <summary>Code (Click to Expand)</summary>
 
 ```
