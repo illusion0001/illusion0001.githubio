@@ -29,11 +29,11 @@ Affected Consoles:
 - PlayStation 5 [Video](https://youtu.be/HQ7oOmx4mmg?t=127)
 
 - PS4/PS5 versions issue still persists on latest patch 1.11
-<center>
+<div align="center" class="video-container">
 <video controls autoplay muted >
   <source src="\assets\images\t1-ps3-head-crash\t1-head-crash-before.mp4" type="video/mp4">
 </video>
-</center>
+</div>
 ## Finding what caused the crash
 
 When the game crashed, using an emulator we can see that it gives an access violation as well as the address it stopped.
@@ -79,7 +79,9 @@ We can add some data into Register 10 and additional check to prevent crashing.
 
 Let's implement this fix and see the results!
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/yDHUPHUYr1w?start=17" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div align="center" class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yDHUPHUYr1w?start=17" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Success! No longer crashes when throwing an object.
 

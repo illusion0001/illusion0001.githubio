@@ -107,7 +107,9 @@ Skip to load 1 into their needed register skip and return to normal code if isn'
 
 Let's implement this fix and see the results.
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/UdDs6-ZT8gw?start=31" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div align="center" class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UdDs6-ZT8gw?start=31" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Awesome! No longer crashing when quitting to the menu.
 

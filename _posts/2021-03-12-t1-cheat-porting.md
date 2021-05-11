@@ -349,7 +349,9 @@ The Compare SUB allows for infinite items - when byte is enabled, parts, item, e
 
 ## Results
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/wesqEfidErg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div align="center" class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wesqEfidErg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 # Patch
 

@@ -26,12 +26,12 @@ There’s a fault with one of the provided cheats, “Infinite Ammo” - Whether
 
 The issue with this cheat is that ammo still decreases for the silencer, one of the games craftable items for the Pistol.
 
-<center>
+<div align="center" class="video-container">
 <video controls >
   <source src="/assets/images/t2-silencer-cheat/t2-inf-ammo-demo.mp4" type="video/mp4">
 </video>
 <em>Video showing cheat active. But silencer ammo still decreasing.</em>
-</center>
+</div>
 
 ## Find it first or it will be gone
 
@@ -107,7 +107,9 @@ Replaced `DEC` instruction to call to our new location, setup a pointer, compare
 
 ## Result
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/ZRg-gr79vp8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div align="center" class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZRg-gr79vp8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 # Patch
 

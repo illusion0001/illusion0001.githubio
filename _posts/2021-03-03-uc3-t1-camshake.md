@@ -48,12 +48,12 @@ Let's activate this menu in-game.
 
 Three options. What we are interested here is `Disable Camera Additives` Let's see what happens when we enable it.
 
-<center>
+<div align="center" class="video-container">
 <video controls >
   <source src="\assets\images\t1-camshake\t1-camshake-demo.mp4" type="video/mp4">
 </video>
 <em>No more Camera shakes!</em>
-</center>
+</div>
 
 ## Smoking Mirrors
 
@@ -63,12 +63,12 @@ Going to `0x14f3412` in Memory and setting it to 1, does nothing. Why's that?
 
 `0x14f3412` seems to be `Show Camera Additives` as `final` build configs have most debugging features stripped out, it doesn't do anything. Let's try byte next to it. 
 
-<center>
+<div align="center" class="video-container">
 <video controls >
   <source src="\assets\images\t1-camshake\t1-rpcs3-camshake-demo.mp4" type="video/mp4">
 </video>
 <em>Got it. No more camera shake for the PS3 version.</em>
-</center>
+</div>
 
 For The Last of Us, setting a breakpoint at startup and loading it's with register 11 as it holds value 1 setup by `009941e4 39 60 00 01     li         r11,0x1` made it work.
 
@@ -169,7 +169,9 @@ First `CALL` here is jumping to our new location. We *must* run original instruc
 
 The video below showcases changes introduced by the Patch.
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/Zoz7e9jN6Xs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div align="center" class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Zoz7e9jN6Xs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 # Patch
 

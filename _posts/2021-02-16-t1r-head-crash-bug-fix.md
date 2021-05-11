@@ -30,11 +30,11 @@ Affected Consoles:
 
 - PS4/PS5 versions issue still persists on latest patch 1.11
 
-<center>
+<div align="center" class="video-container">
 <video controls muted >
   <source src="\assets\images\t1r-ps4-head-crash\t1r-head-crash-before.mp4" type="video/mp4">
 </video>
-</center>
+</div>
 
 ## Cut to the Chase
 
@@ -68,7 +68,9 @@ We can do a check if RBX isn't 0 we can skip and run normally.
 
 Let's implement this fix and see the results.
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/a5QEZGT7HOU?start=10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div align="center" class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a5QEZGT7HOU?start=10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Success! Doesn't crash now when throwing an object.
 
