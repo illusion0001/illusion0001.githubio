@@ -17,6 +17,9 @@ In file `...\end\content\paks\pakchunk0-ps4.pak`
 ; be sure to change all occurences.
 ; Neo uses 2880x1620 for highest bound?
 ; https://youtu.be/qyGl5C3Uwak?t=516
+; I'm not sure if adjusting min and max for neo is affective,
+; since its base is already at 75%
+; maybe only adjust base instead?
 
 ; For end users
 ; When replacing, only search for cvars
