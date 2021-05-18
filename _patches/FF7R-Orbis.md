@@ -77,7 +77,7 @@ r.DynamicRes.MaxScreenPercentage=100 ; 100% of target ir
 ; Under [PS4 DeviceProfile] ; base res
 ; Replace:
 r.DynamicRes.MinScreenPercentage=50.0000000 ; 50% of target ir (540p for base)
-r.DynamicRes.MaxScreenPercentage=63 ; 63% of target ir (680p for base)
+r.DynamicRes.MaxScreenPercentage=67 ; 67% of target ir (720p for base) use 66.6666667 directly in ini with UE4 patch method for higher accuracy
 
 ; Pro Console Standard mode
 
