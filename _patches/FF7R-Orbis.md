@@ -68,32 +68,45 @@ In file `...\end\content\paks\pakchunk0-ps4.pak`
 
 ; Base Console
 
-; Res scale change may only be needed for Base Console, needs testing on Pro.
+; Res scale for Base Console
 ; Under [PS4 DeviceProfile] ; base res
 ; Find:
 r.DynamicRes.MinScreenPercentage=83.3333333 ; 83% of target ir
 r.DynamicRes.MaxScreenPercentage=100 ; 100% of target ir
 
-; Res scale change may only be needed for Base Console, needs testing on Pro.
+; Res scale for Base Console
 ; Under [PS4 DeviceProfile] ; base res
 ; Replace:
 r.DynamicRes.MinScreenPercentage=50.0000000 ; 50% of target ir (540p for base)
-r.DynamicRes.MaxScreenPercentage=63 ; 63% of target ir (720p for base)
+r.DynamicRes.MaxScreenPercentage=67 ; 67% of target ir (720p for base) use 66.6666667 directly in ini with UE4 patch method for higher accuracy
 
-; Pro Console
+; Pro Console Standard mode
+
+; Res scale for Pro Console
+; Under [PS4_Neo DeviceProfile] ; Pro res
 ; Find:
-
-; Under [PS4_Neo_4k DeviceProfile] ; Pro res
-r.ScreenPercentage=75 ; always 2880x1620 by default?
-r.DynamicRes.MinScreenPercentage=74.0740741 ; lowest is n/a
-r.DynamicRes.MaxScreenPercentage=100 ; highest is 3840x2160?
-
+r.DynamicRes.MinScreenPercentage=83.3333333 ; same targets as base, just hits higher res more often
+r.DynamicRes.MaxScreenPercentage=100
+  
+; Res scale for Pro Console
+; Under [PS4_Neo DeviceProfile] ; Pro res
 ; Replace:
+r.DynamicRes.MinScreenPercentage=50.0000000 ; (540p for pro standard)
+r.DynamicRes.MaxScreenPercentage=75 ; (810p for pro standard)
+  
+; Res scale for Pro Console 4K mode
+; Under [PS4_Neo_4k DeviceProfile] ; 4k Pro res
+; Find:
+r.ScreenPercentage=75 ; 1620p
+r.DynamicRes.MinScreenPercentage=74.0740741 ; lowest is 1200p
+r.DynamicRes.MaxScreenPercentage=100 ; highest is 1620p
 
-; Under [PS4_Neo_4k DeviceProfile] ; Pro Res
-r.ScreenPercentage=75 ; always 2880x1620 by default?
-r.DynamicRes.MinScreenPercentage=74.0740741 ; lowest is 74~% of 3840x2160
-r.DynamicRes.MaxScreenPercentage=80 ; 80% of 3840x2160
+; Res scale for Pro Console 4K mode
+; Under [PS4_Neo_4k DeviceProfile] ; 4k Pro res
+; Replace: (change it to an untested dynamic 900p mode since we're targetting 60fps)
+r.ScreenPercentage=50 ; 1080p
+r.DynamicRes.MinScreenPercentage=66.6666667 ; 720p
+r.DynamicRes.MaxScreenPercentage=83 ; 900p, use 83.3333333 directly in ini with UE4 patch method for higher accuracy
 
 ; end of DynamicRes
 
@@ -104,9 +117,9 @@ r.DynamicRes.MinScreenPercentage=83.3333333 ; lowest bound is 83%
 r.DynamicRes.MaxScreenPercentage=100 ; highest bound is 1920x1080
 
 ; [PS4_Neo_4k DeviceProfile] ; What PS4 Pro uses.
-r.ScreenPercentage=75 ; always 2880x1620 by default?
-r.DynamicRes.MinScreenPercentage=74.0740741 ; lowest is n/a
-r.DynamicRes.MaxScreenPercentage=100 ; highest is 3840x2160?
+r.ScreenPercentage=75 ; always 2880x1620 by default
+r.DynamicRes.MinScreenPercentage=74.0740741 ; lowest is 1200p
+r.DynamicRes.MaxScreenPercentage=100 ; highest is 1620p
 ```
 
 </details>
