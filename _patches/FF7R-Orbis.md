@@ -1,6 +1,6 @@
 # Final Fantasy 7: Remake
 
-## 60 FPS Unlock
+## 60 FPS Patch
 
 [Blog Post](https://illusion0001.github.io/patches/2021/05/20/ff7r-end-60fps/)
 
@@ -15,6 +15,41 @@ In file `...\end\content\paks\pakchunk0-ps4.pak`
 ; and may cause game crashes.
 ; There are multiple instances of the following lines,
 ; be sure to change all occurences.
+
+; For end users
+; When replacing, only search for cvars
+; i.e search for: rhi.SyncInterval=2
+; Do not search for comments as they don't exist!
+
+; Framerate limit, applies to both consoles.
+
+; Find:
+rhi.SyncInterval=2 ; 30hz
+
+; Replace:
+rhi.SyncInterval=1 ; 60hz
+
+; end of fps limit
+```
+
+</details>
+
+## Dynamic Resolution Patch
+
+[Blog Post](https://illusion0001.github.io/patches/2021/05/20/ff7r-end-60fps/)
+
+In file `...\end\content\paks\pakchunk0-ps4.pak`
+
+<details>
+<summary>Code (Click to Expand)</summary>
+
+```ini
+; This file must be edited in hex editor,
+; normal text editors will add more bytes
+; and may cause game crashes.
+
+; There are multiple instances of the following lines,
+; be sure to change all occurences.
 ; Neo uses 2880x1620 for highest bound?
 ; https://youtu.be/qyGl5C3Uwak?t=516
 ; I'm not sure if adjusting min and max for neo is affective,
@@ -27,16 +62,6 @@ In file `...\end\content\paks\pakchunk0-ps4.pak`
 ; Do not search for comments as they don't exist!
 ; Base Console needs both Framerate and Res Scale Change.
 ; Pro console needs testing. Separate DynamicRes cvars below.
-
-; Framerate limit, applies to both consoles.
-
-; Find:
-rhi.SyncInterval=2 ; 30hz
-
-; Replace:
-rhi.SyncInterval=1 ; 60hz
-
-; end of fps limit
 
 ; Dynamic Resolution Scale Change
 
@@ -83,4 +108,6 @@ r.DynamicRes.MinScreenPercentage=74.0740741 ; lowest is n/a
 r.DynamicRes.MaxScreenPercentage=100 ; highest is 3840x2160?
 ```
 
+
 </details>
+
