@@ -72,20 +72,10 @@ r.DynamicRes.MaxScreenPercentage=100 ; 100% of target ir
 r.DynamicRes.MinScreenPercentage=50.0000000 ; 50% of target ir (540p for base)
 r.DynamicRes.MaxScreenPercentage=67 ; 67% of target ir (roughly ~720p for base, use 66.6666667 directly in ini with UE4 patch method for higher accuracy)
 
-; Pro Console Standard mode
+; Pro Console 4K/Supersampling mode
+; Supersampling must be enabled in the
+; Console system menu for users with 1080p displays.
 
-; Res scale for Pro Console
-; Under [PS4_Neo DeviceProfile] ; Pro res
-; Find:
-r.DynamicRes.MinScreenPercentage=83.3333333 ; same targets as base, just hits higher res more often
-r.DynamicRes.MaxScreenPercentage=100
-  
-; Res scale for Pro Console
-; Under [PS4_Neo DeviceProfile] ; Pro res
-; Replace:
-r.DynamicRes.MinScreenPercentage=50.0000000 ; (540p for pro standard)
-r.DynamicRes.MaxScreenPercentage=75 ; (810p for pro standard)
-  
 ; Res scale for Pro Console 4K mode
 ; Under [PS4_Neo_4k DeviceProfile] ; 4k Pro res
 ; Find:
@@ -96,7 +86,7 @@ r.DynamicRes.MaxScreenPercentage=100 ; highest is 1620p
 ; Res scale for Pro Console 4K mode (900p60)
 ; min 720p max ~900p
 ; Under [PS4_Neo_4k DeviceProfile] ; 4k Pro res
-; Replace: (change it to a dynamic 900p mode since we're targetting 60fps)
+; Replace:
 r.ScreenPercentage=50 ; 1080p
 r.DynamicRes.MinScreenPercentage=66.6666667 ; 720p
 r.DynamicRes.MaxScreenPercentage=83 ; 900p (use 83.3333333 directly in ini with UE4 patch method for higher accuracy)
@@ -104,7 +94,7 @@ r.DynamicRes.MaxScreenPercentage=83 ; 900p (use 83.3333333 directly in ini with 
 ; Res scale for Pro Console 4K mode (1080p60)
 ; min 900p max 1080p
 ; Under [PS4_Neo_4k DeviceProfile] ; 4k Pro res
-; Replace: (change it to a dynamic 900p mode since we're targetting 60fps)
+; Replace:
 r.ScreenPercentage=50 ; 1080p
 r.DynamicRes.MinScreenPercentage=83.3333333 ; lowest is 900p, same targets as base, just hits higher res more often
 r.DynamicRes.MaxScreenPercentage=100 ; highest is 1080p
@@ -125,7 +115,7 @@ r.DynamicRes.MaxScreenPercentage=100 ; highest is 1620p
 
 </details>
 
-## Disable Dynamic Resolution Patch
+## Disable Dynamic Resolution Patch (Optional)
 
 In file `...\end\content\paks\pakchunk0-ps4.pak`
 
@@ -141,6 +131,13 @@ In file `...\end\content\paks\pakchunk0-ps4.pak`
 
 ; https://docs.unrealengine.com/en-US/RenderingAndGraphics/DynamicResolution/index.html
 
+; This is optional for users who want static resolution. 
+; This ignores the following:
+; DynamicRes.MinScreenPercentage
+; DynamicRes.MaxScreenPercentage
+; May significantly impact performance
+; Use with caution.
+
 ; Find
 r.DynamicRes.OperationMode=2
 
@@ -151,7 +148,6 @@ r.DynamicRes.OperationMode=0
 ; 0 = Disabled
 ; 1 = Enabled based on the setting used in GameUserSettings.
 ; 2 = Enabled regardless of the setting used by GameUserSettings. (Default)
-
 ```
 
 </details>
