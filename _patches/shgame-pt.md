@@ -5,7 +5,7 @@
 
 ## 60 FPS
 
-[Blog Post](https://illusion0001.github.io/patches/2021/04/29/pt-60fps/)
+[Article](https://illusion0001.github.io/patches/2021/04/29/pt-60fps/)
 
 Not very useful without resolution hack on PS4, Might be useful in the future for PS5 Hardware.
 

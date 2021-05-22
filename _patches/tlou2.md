@@ -6,7 +6,7 @@ PS4: Open decrypted executable (eboot.bin) in hexeditor and search for first lin
 
 ## Improved Inf Ammo
 
-[Blog Post](https://illusion0001.github.io/cheatcodes/2021/03/20/t2-silencer-cheat/)
+[Article](https://illusion0001.github.io/cheatcodes/2021/03/20/t2-silencer-cheat/)
 
 In file `eboot.bin`
 

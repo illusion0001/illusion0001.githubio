@@ -2,7 +2,7 @@
 
 ## 60 FPS Patch
 
-[Blog Post](https://illusion0001.github.io/patches/2021/05/20/ff7r-end-60fps/)
+[Article](https://illusion0001.github.io/patches/2021/05/20/ff7r-end-60fps/)
 
 In file `...\end\content\paks\pakchunk0-ps4.pak`
 
@@ -36,7 +36,7 @@ rhi.SyncInterval=1 ; 60hz
 
 ## Dynamic Resolution Patch
 
-[Blog Post](https://illusion0001.github.io/patches/2021/05/20/ff7r-end-60fps/)
+[Article](https://illusion0001.github.io/patches/2021/05/20/ff7r-end-60fps/)
 
 In file `...\end\content\paks\pakchunk0-ps4.pak`
 

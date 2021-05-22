@@ -4,7 +4,7 @@
 
 CUSA03279, may work for other versions too.
 
-[Blog Post](https://illusion0001.github.io/patches/2021/05/11/wif-dawn-60fps/)
+[Article](https://illusion0001.github.io/patches/2021/05/11/wif-dawn-60fps/)
 
 [Example of CPU Limited Scenario](https://cdn.discordapp.com/attachments/650395105479360514/840144551825244180/20210507_191348_00757258.png)
 

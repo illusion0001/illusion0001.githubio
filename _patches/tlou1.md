@@ -8,7 +8,7 @@ PS3: Decrypt executable with [TrueAncestor SELF Resigner](https://www.psx-place.
 
 ## Improved Loading
 
-[Blog Post](https://illusion0001.github.io/patches/2021/02/10/t1r-improve-loading/)
+[Article](https://illusion0001.github.io/patches/2021/02/10/t1r-improve-loading/)
 
 In file `eboot.bin`
 
@@ -67,7 +67,7 @@ C6 80 DF 06 00 00 00 C6 80 30 00 00 00 01 44 89 F0 48 83 C4 08 5B 41 5E 41 5F 5D
 
 ## Infected's Severed Head Crash Bug Fix
 
-[Blog Post](https://illusion0001.github.io/patches/2021/02/15/t1-head-crash-bug-fix/)
+[Article](https://illusion0001.github.io/patches/2021/02/15/t1-head-crash-bug-fix/)
 
 In file `eboot.bin`
 
@@ -151,7 +151,7 @@ E8 72 53 56 00 90 90 90 90 90 90
 
 ## Disable Camera Shake
 
-[Blog Post](https://illusion0001.github.io/patches/2021/03/03/uc3-t1-camshake/)
+[Article](https://illusion0001.github.io/patches/2021/03/03/uc3-t1-camshake/)
 
 In file `eboot.bin`
 
@@ -186,7 +186,7 @@ C6 83 EC 06 00 00 01 C6 05 1C 8A 51 01 01
 
 ## Improved Cheat Codes
 
-[Blog Post](https://illusion0001.github.io/cheatcodes/2021/03/12/t1-cheat-porting/)
+[Article](https://illusion0001.github.io/cheatcodes/2021/03/12/t1-cheat-porting/)
 
 In file `eboot.bin`
 
