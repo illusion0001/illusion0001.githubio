@@ -152,7 +152,7 @@ r.DynamicRes.OperationMode=0
 
 </details>
 
-## Texture Streaming Improvements (Untested)
+## Texture Streaming Improvements
 
 In file `...\end\content\paks\pakchunk0-ps4.pak`
 
@@ -162,11 +162,60 @@ In file `...\end\content\paks\pakchunk0-ps4.pak`
 ```ini
 ; https://github.com/illusion0001/illusion0001.github.io/commit/6d72ffa2a1fe389a3d614eb6756bea80b51439a4#commitcomment-51227749
 ; https://github.com/dontellmama
-; Needs checking
 
-r.Streaming.PoolSize= ?? ; 2600 will crash(CE-34787), 2000-2400 fine
+; Find:
+; Under [PS4_Neo_4k DeviceProfile]
+ r.Streaming.PoolSize=1350
+; Under [PS4 DeviceProfile]
+ r.Streaming.PoolSize=1300
+
+; Replace:
+
+r.Streaming.PoolSize=2400 ; 2600 will crash(CE-34787), 2000-2400 fine
+
+; Find:
+
+r.Streaming.MaxTempMemoryAllowed=35
+
+; Replace:
+
 r.Streaming.MaxTempMemoryAllowed=40
+
+; Find:
+
+MemoryMargin=5
+
+; Replace:
+
 MemoryMargin=10
+```
+
+</details>
+
+## Optional Post Processing Patches
+
+These will need to be added manually and cannot be done in hex editor.
+
+More info about extracting and repacking pak [here](https://web.archive.org/web/20210424045205/https://gbatemp.net/threads/how-to-unpack-and-repack-unreal-engine-4-files.531784/).
+
+Extract from `...\end\content\paks\pakchunk0-ps4.pak`
+
+File to modify `...\Engine\Config\PS4\PS4DeviceProfiles.ini`
+
+FF7R uses version 4.
+
+<details>
+<summary>Code (Click to Expand)</summary>
+
+```ini
+; Add in file ...\Engine\Config\PS4\PS4DeviceProfiles.ini
+; use sg. prefix for presets or manual adjust, see BaseScalability.ini
+; for more info.
++CVars=sg.AntiAliasingQuality=0 ; Hair and other Alpha to Coverage will flicker!
+                                ; Do not use.
++CVars=sg.EffectsQuality=0      ; lower fx level
++CVars=sg.ViewDistanceQuality=0 ; pop in, improve performance slightly in cpu limited scene
++CVars=sg.PostProcessQuality=0  ; disable most post fx
 ```
 
 </details>
