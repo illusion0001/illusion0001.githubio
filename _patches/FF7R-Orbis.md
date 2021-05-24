@@ -151,3 +151,22 @@ r.DynamicRes.OperationMode=0
 ```
 
 </details>
+
+## Texture Streaming Improvements (Untested)
+
+In file `...\end\content\paks\pakchunk0-ps4.pak`
+
+<details>
+<summary>Code (Click to Expand)</summary>
+
+```ini
+; https://github.com/illusion0001/illusion0001.github.io/commit/6d72ffa2a1fe389a3d614eb6756bea80b51439a4#commitcomment-51227749
+; https://github.com/dontellmama
+; Needs checking
+
+r.Streaming.PoolSize= ?? ; 2600 will crash(CE-34787), 2000-2400 fine
+r.Streaming.MaxTempMemoryAllowed=40
+MemoryMargin=10
+```
+
+</details>
