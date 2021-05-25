@@ -192,7 +192,11 @@ MemoryMargin=10
 
 </details>
 
-## Optional Post Processing Patches
+## Optional Graphical Patches
+
+Additional Patches by [@dontellmama](https://github.com/dontellmama)
+
+[Source](https://github.com/dontellmama/Improve-Final-Fantasy-VII-Remake/blob/d9ac423934da27aff97aa512df47906016b8c3d3/README.md).
 
 These will need to be added manually and cannot be done in hex editor.
 
@@ -204,7 +208,7 @@ File to modify `...\Engine\Config\PS4\PS4DeviceProfiles.ini`
 
 FF7R uses version 4.
 
-<details>
+<!-- <details>
 <summary>Code (Click to Expand)</summary>
 
 ```ini
@@ -216,6 +220,42 @@ FF7R uses version 4.
 +CVars=sg.EffectsQuality=0      ; lower fx level
 +CVars=sg.ViewDistanceQuality=0 ; pop in, improve performance slightly in cpu limited scene
 +CVars=sg.PostProcessQuality=0  ; disable most post fx
+```
+
+</details> -->
+
+<details>
+<summary>Code (Click to Expand)</summary>
+
+```ini
+; all tested
+
+[TextureStreaming]
+r.Streaming.PoolSize=2000 ; Streaming Pool Size too large(for example, 2600) will crash. Cause PS4 total RAM too small, RAM and VRAM share 8G (approximately 5G available for games)
+r.Streaming.MaxTempMemoryAllowed=40
+MemoryMargin=10
+
+; Add in file ...\Engine\Config\PS4\PS4DeviceProfiles.ini
+
++CVars=r.Streaming.MipBias=0
++CVars=r.MaxAnisotropy=16 ; AF 16X
++CVars=r.Streaming.PoolSize=2000
++CVars=r.Streaming.MaxEffectiveScreenSize=0
+
++CVars=r.PostProcessAAQuality=3 ; default value 4 TAA too blur, value 3 balance more than other
+
++CVars=r.MotionBlurQuality=0 ; disable Motion Blur
++CVars=r.AmbientOcclusionMipLevelFactor=0.4 ; improve AO.
++CVars=r.AmbientOcclusionMaxQuality=100 ; improve AO
++CVars=r.AmbientOcclusionLevels=-1 ; improve AO
++CVars=r.AmbientOcclusionRadiusScale=1.0 ; improve AO
++CVars=r.DepthOfFieldQuality=2 ; DOF so far so good
++CVars=r.SceneColorFringeQuality=0 ; remove blur
++CVars=r.Tonemapper.GrainQuantization=0 ; remove grain
++CVars=r.Tonemapper.Quality=0 ; remove grain
+
++CVars=r.DetailMode=2 ; improve detail
++CVars=r.MaterialQualityLevel=1 ; improve material
 ```
 
 </details>
