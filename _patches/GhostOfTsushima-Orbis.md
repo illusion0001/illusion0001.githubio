@@ -2,6 +2,10 @@
 
 ## 60 FPS Unlock
 
+This isn't very useful right now because it only unlocks the framerate, nothing more.
+
+CPU + GPU limited in normal gameplay, meaning you won't go above 32~fps without looking at the sky.
+
 In file `eboot.bin`
 
 <details>
