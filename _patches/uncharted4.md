@@ -1,4 +1,4 @@
-# Uncharted 4 Patches
+# Uncharted 4
 
 To apply patch:
 

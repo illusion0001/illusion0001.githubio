@@ -1,4 +1,4 @@
-# Uncharted: The Lost Legacy Patches
+# Uncharted: The Lost Legacy
 
 To apply patch:
 

@@ -1,4 +1,4 @@
-# The Last of Us: Part II Patches
+# The Last of Us: Part II
 
 To apply patch:
 

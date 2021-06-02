@@ -1,4 +1,4 @@
-# The Last of Us Patches
+# The Last of Us
 
 To apply patch:
 
