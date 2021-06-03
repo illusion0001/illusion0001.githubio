@@ -34,6 +34,31 @@ rhi.SyncInterval=1 ; 60hz
 
 </details>
 
+## 60 FPS + 720p IR (ASM Port)
+
+Same as [this patch](#60-fps-patch) but ported to asm as Proof of Concept.
+
+In file `eboot.bin`
+
+<details>
+<summary>Code 1.00 (Click to Expand)</summary>
+
+```
+8B 1C 8B C5 EB 2A C3
+
+67 67 E8 C8 AD E3 01
+
+C5 FA 10 40 04 C5 F2 2A 0D 6F 47 3A 04
+
+E8 24 7E 5D 01 C5 F2 2A 0D 6F 47 3A 04
+
+55 48 89 E5 41 57 41 56 41 55 41 54 53 48 81 EC E8 01 00 00 48 8B 1D E5 5F 6F 02 48 8B 03 48 89 45 D0 48 8B 7A 50 48 85 FF 75 22
+
+C3 C6 04 8B 01 8B 1C 8B C5 EB 2A C3 C3 C7 40 04 81 55 85 42 C5 FA 10 40 04 C3 02 48 8B 03 48 89 45 D0 48 8B 7A 50 48 85 FF 75 22
+```
+
+</details>
+
 ## Dynamic Resolution Patch
 
 [Article](https://illusion0001.github.io/patches/2021/05/20/ff7r-end-60fps/)
@@ -256,32 +281,6 @@ MemoryMargin=10
 
 +CVars=r.DetailMode=2 ; improve detail
 +CVars=r.MaterialQualityLevel=1 ; improve material
-```
-
-</details>
-
-## 60 FPS + 720p IR (ASM Port)
-
-Same as [this patch](#60-fps-patch) but ported to asm as Proof of Concept.
-
-In file `eboot.bin`
-
-<details>
-<summary>Code 1.00 (Click to Expand)</summary>
-
-```
-8B 1C 8B C5 EB 2A C3
-
-67 67 E8 C8 AD E3 01
-
-C5 FA 10 40 04 C5 F2 2A 0D 6F 47 3A 04
-
-E8 24 7E 5D 01 C5 F2 2A 0D 6F 47 3A 04
-
-55 48 89 E5 41 57 41 56 41 55 41 54 53 48 81 EC E8 01 00 00 48 8B 1D E5 5F 6F 02 48 8B 03 48 89 45 D0 48 8B 7A 50 48 85 FF 75 22
-
-C3 C6 04 8B 01 8B 1C 8B C5 EB 2A C3 C3 C7 40 04 81 55 85 42 C5 FA 10 40 04 C3 02 48 8B 03 48 89 45 D0 48 8B 7A 50 48 85 FF 75 22
-
 ```
 
 </details>
