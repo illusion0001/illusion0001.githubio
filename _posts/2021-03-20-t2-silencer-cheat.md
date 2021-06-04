@@ -125,15 +125,15 @@ I have also ported the [Infected's Severed Head Crash Bug Fix](https://github.co
 
 Also, here is Naughty Dog code for loading section on 1.11.
 
-<p align="center">
+<div align="center">
 <img src="{% link assets/images/t2-silencer-cheat/t1-111-load0.png %}">
-</p>
 <em>Official Patch.</em>
+</div>
 
-<p align="center">
+<div align="center">
 <img src="{% link assets/images/t2-silencer-cheat/t1-110-load.png %}">
-</p>
 <em>My Patch.</em>
+</div>
 
 0x2c is framelock but the fact that it doesn't even work in the menu made me laughed a little.
 
