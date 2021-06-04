@@ -24,6 +24,8 @@ This directory list game improvement patches made for use with exploited PlaySta
 
 [Kingdom Hearts: III](Tresgame-Orbis.md)
 
+[Uncharted: The Nathan Drake Collection](uncharted-collection.md)
+
 [Uncharted: The Lost Legacy](uncharted-tll.md)
 
 [Uncharted 4](uncharted4.md)
