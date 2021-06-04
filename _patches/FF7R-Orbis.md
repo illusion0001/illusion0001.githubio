@@ -1,4 +1,4 @@
-# Final Fantasy 7: Remake
+# Final Fantasy VII: Remake
 
 ## 60 FPS Patch
 
