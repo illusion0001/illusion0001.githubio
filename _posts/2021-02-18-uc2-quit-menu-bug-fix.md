@@ -6,6 +6,8 @@ categories: Patches
 tags: uncharted uc2 ps3 rpcs3 ps4 patches bugfix
 ---
 
+{% include_relative _orbis_console_note.md %}
+
 * TOC
 {:toc}
 

@@ -10,6 +10,8 @@ tags: tlou ps4 patches bugfix
 
 ***
 
+{% include_relative _orbis_console_note.md %}
+
 * TOC
 {:toc}
 

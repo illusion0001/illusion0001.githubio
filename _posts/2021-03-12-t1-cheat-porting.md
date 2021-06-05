@@ -6,6 +6,8 @@ categories: cheatcodes
 tags: tlou ps3 ps4 cheatcodes
 ---
 
+{% include_relative _orbis_console_note.md %}
+
 * TOC
 {:toc}
 

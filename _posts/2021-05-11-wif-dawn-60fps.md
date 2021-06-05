@@ -11,6 +11,8 @@ tags: [Articles, Releases]
 twitter: {card: "summary_large_image"}
 ---
 
+{% include_relative _orbis_console_note.md %}
+
 * TOC
 {:toc}
 

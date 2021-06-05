@@ -6,6 +6,8 @@ categories: Patches
 tags: tlou uncharted uc3 ps3 ps4 patches
 ---
 
+{% include_relative _orbis_console_note.md %}
+
 * TOC
 {:toc}
 
