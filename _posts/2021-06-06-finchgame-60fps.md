@@ -169,6 +169,8 @@ Pretty simple right? This should work in-game, let's test it out.
 
 Image quailty comparisons, can you guess which is which?
 
+{% include_relative _image_note.md %}
+
 <p align="center">
 <img src="{% link assets/images/finchgame-60fps/fg-before.png %}">
 </p>
