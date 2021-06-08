@@ -6,9 +6,6 @@ This isn't very useful right now because it only unlocks the framerate, nothing 
 
 CPU + GPU limited in normal gameplay, meaning you won't go above 32~fps without looking at the sky.
 
-Note from tester with PS4 Pro: `When looking at the sea, it's fluid 60, I can feel that. In the forest, it's juddery, so I'm guessing it's 40-50ish.`
-
-
 In file `eboot.bin`
 
 <details>
