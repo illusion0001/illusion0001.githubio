@@ -16,6 +16,8 @@ This directory list game improvement patches made for use with exploited PlaySta
 
 [Persona 5: Royal](P5R-Orbis.md)
 
+[Rime](sirengame-Orbis.md)
+
 [Silent Hills: P.T.](shgame-pt.md)
 
 [The Last of Us](tlou1.md)
