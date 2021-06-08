@@ -76,7 +76,7 @@ theme_settings:
   # Localization strings
   str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"
-  str_discord: "Add me on Discord"
+  str_discord: "Contact on Discord"
   str_support_via: "Support via"
   str_share_on: "Share on"
   str_add_to: "Add to"
