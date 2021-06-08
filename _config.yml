@@ -10,7 +10,7 @@ permalink: pretty
 theme_settings:
   # Meta
   title: illusion's Blog
-  avatar: assets/icons/favicon.svg
+  avatar: assets/icons/favicon.png
 
   # Header and footer text
   header_text: Detailing the inner workings of my creations.
@@ -138,7 +138,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: assets/icons/favicon.svg
+      image: assets/icons/favicon.png
       date-format: "%B %-d, %Y"
   - scope:
       path: ""
