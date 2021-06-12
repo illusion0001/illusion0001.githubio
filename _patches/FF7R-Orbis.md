@@ -1,5 +1,49 @@
 # Final Fantasy VII: Remake
 
+## 60 FPS + Resolution Patch (ASM Ver.)
+
+In file `eboot.bin`
+
+<details>
+<summary>Code 1.00 (Click to Expand)</summary>
+
+```
+8B 1C 8B C5 EB 2A C3
+
+67 67 E8 C8 AD E3 01
+
+C5 FA 10 40 04 C5 F2 2A 0D 6F 47 3A 04
+
+E8 24 7E 5D 01 C5 F2 2A 0D 6F 47 3A 04
+
+55 48 89 E5 41 57 41 56 41 55 41 54 53 48 81 EC E8 01 00 00 48 8B 1D E5 5F 6F 02 48 8B 03 48 89 45 D0 48 8B 7A 50 48 85 FF 75 22
+
+C3 C6 04 8B 01 8B 1C 8B C5 EB 2A C3 C3 C7 40 04 81 55 85 42 C5 FA 10 40 04 C3 02 48 8B 03 48 89 45 D0 48 8B 7A 50 48 85 FF 75 22
+
+# Presets:
+
+# 720p for 1080p Output (Base)
+
+81 55 85 42 -> 81 55 85 42 # 66.67f // no change needed.
+
+# 900p for 1080p Output (Pro)
+
+81 55 85 42 -> F6 A8 A6 42 # 83.33f
+
+# 972p for 4K Output (Pro) // slightly higher than 900p because rounding issues.
+
+81 55 85 42 -> 00 00 34 42 # 45.00f, 44.44f would be much closer to 900p though.
+
+# 1080p for 4K Output (Pro)
+
+81 55 85 42 -> 00 00 48 42 # 50.00f
+
+```
+
+</details>
+
+## Config INI Tweaks
+
 ## 60 FPS Patch
 
 [Article](https://illusion0001.github.io/patches/2021/05/20/ff7r-end-60fps/)
@@ -30,31 +74,6 @@ rhi.SyncInterval=2 ; 30hz
 rhi.SyncInterval=1 ; 60hz
 
 ; end of framerate limit
-```
-
-</details>
-
-## 60 FPS + 720p IR (ASM Port)
-
-Same as [this patch](#60-fps-patch) but ported to asm as Proof of Concept.
-
-In file `eboot.bin`
-
-<details>
-<summary>Code 1.00 (Click to Expand)</summary>
-
-```
-8B 1C 8B C5 EB 2A C3
-
-67 67 E8 C8 AD E3 01
-
-C5 FA 10 40 04 C5 F2 2A 0D 6F 47 3A 04
-
-E8 24 7E 5D 01 C5 F2 2A 0D 6F 47 3A 04
-
-55 48 89 E5 41 57 41 56 41 55 41 54 53 48 81 EC E8 01 00 00 48 8B 1D E5 5F 6F 02 48 8B 03 48 89 45 D0 48 8B 7A 50 48 85 FF 75 22
-
-C3 C6 04 8B 01 8B 1C 8B C5 EB 2A C3 C3 C7 40 04 81 55 85 42 C5 FA 10 40 04 C3 02 48 8B 03 48 89 45 D0 48 8B 7A 50 48 85 FF 75 22
 ```
 
 </details>
