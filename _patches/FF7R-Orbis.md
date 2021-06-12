@@ -44,6 +44,8 @@ C3 C6 04 8B 01 8B 1C 8B C5 EB 2A C3 C3 C7 40 04 81 55 85 42 C5 FA 10 40 04 C3 02
 
 ## Config INI Tweaks
 
+Below are **optional** config ini tweaks. If you only want resolution and framerate patches, use eboot patch above.
+
 ## 60 FPS Patch
 
 [Article](https://illusion0001.github.io/patches/2021/05/20/ff7r-end-60fps/)
@@ -198,6 +200,8 @@ r.DynamicRes.OperationMode=0
 
 ## Texture Streaming Improvements
 
+May cause out of memory. Use at your own risk.
+
 In file `...\end\content\paks\pakchunk0-ps4.pak`
 
 <details>
@@ -273,21 +277,25 @@ FF7R uses version 4.
 
 ```ini
 ; all tested
-
-[TextureStreaming]
-r.Streaming.PoolSize=2000 ; Streaming Pool Size too large(for example, 2600) will crash. Cause PS4 total RAM too small, RAM and VRAM share 8G (approximately 5G available for games)
-r.Streaming.MaxTempMemoryAllowed=40
-MemoryMargin=10
+; https://github.com/dontellmama
 
 ; Add in file ...\Engine\Config\PS4\PS4DeviceProfiles.ini
 
-+CVars=r.Streaming.MipBias=0
+; disabled due to reported out of memory.
+; --------------------------------------
+
+; +CVars=r.Streaming.PoolSize=2000 ; Streaming Pool Size too large(for example, 2600) will crash.
+                                   ; Cause PS4 total RAM too small, RAM and VRAM share 8G 
+                                   ; (approximately 5G available for games)
+; +CVars=r.Streaming.MaxTempMemoryAllowed=40
+; +CVars=MemoryMargin=10
+; +CVars=r.Streaming.PoolSize=2000
+; +CVars=r.Streaming.MaxEffectiveScreenSize=0
+
+; --------------------------------------
+
 +CVars=r.MaxAnisotropy=16 ; AF 16X
-+CVars=r.Streaming.PoolSize=2000
-+CVars=r.Streaming.MaxEffectiveScreenSize=0
-
 +CVars=r.PostProcessAAQuality=3 ; default value 4 TAA too blur, value 3 balance more than other
-
 +CVars=r.MotionBlurQuality=0 ; disable Motion Blur
 +CVars=r.AmbientOcclusionMipLevelFactor=0.4 ; improve AO.
 +CVars=r.AmbientOcclusionMaxQuality=100 ; improve AO
@@ -297,7 +305,6 @@ MemoryMargin=10
 +CVars=r.SceneColorFringeQuality=0 ; remove blur
 +CVars=r.Tonemapper.GrainQuantization=0 ; remove grain
 +CVars=r.Tonemapper.Quality=0 ; remove grain
-
 +CVars=r.DetailMode=2 ; improve detail
 +CVars=r.MaterialQualityLevel=1 ; improve material
 ```
