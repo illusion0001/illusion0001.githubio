@@ -6,6 +6,8 @@ This directory list game improvement patches made for use with exploited PlaySta
 
 [Concrete Genie](ConcreteGenie-Orbis.md)
 
+[Crash Bandicoot N. Sane Trilogy](mack-long-Orbis.md)
+
 [Crash Bandicoot 4: It's About Time](Lava-Orbis.md)
 
 [Dark Souls III: The Fire Fades Edition](FD4_FDP-Orbis.md)
