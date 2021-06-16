@@ -22,6 +22,8 @@ This directory list game improvement patches made for use with exploited PlaySta
 
 [Rime](sirengame-Orbis.md)
 
+[inFAMOUS Second Son](iss-Orbis.md)
+
 [Silent Hills: P.T.](shgame-pt.md)
 
 [The Last of Us](tlou1.md)
