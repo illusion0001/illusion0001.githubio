@@ -2,6 +2,8 @@
 
 ## 60FPS Unlock
 
+[Article](https://illusion0001.github.io/patches/2021/06/06/finchgame-60fps/)
+
 In file `eboot.bin`
 
 <details>
@@ -16,6 +18,8 @@ In file `eboot.bin`
 </details>
 
 ## Resolution Patch
+
+[Article](https://illusion0001.github.io/patches/2021/06/06/finchgame-60fps/)
 
 This patch was made and tested on Base Hardware. not sure if PS4 Pro outputs at 4K or 1080, experiment for yourself what works best.
 
