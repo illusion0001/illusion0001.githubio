@@ -51,10 +51,11 @@ This is extracted using the [UT4 QuickBMS](http://aluigi.org/bms/unreal_tourname
 That was simple at least for screen percentage but I ran into a deadend with sync interval.. how about we look in the executable? Could be clues that should lead us somewhere.
 
 ```
-                                 XREF[1]:     FUN_027149a0:027149f1(*)  
-        042247ac 72 00 2e        unicode    u"r.VSync"
-                 00 56 00 
-                 53 00 79 ...
+XREF[1]:     FUN_027149a0:027149f1
+                               (*)
+042247ac 72 00 2e        unicode    u"r.VSync"
+         00 56 00 
+         53 00 79 ...
 ```
 
 Searching for sync came up with only a couple of releavent results. There's `r.VSync` though. let's checkout that cvar and see what's up.
