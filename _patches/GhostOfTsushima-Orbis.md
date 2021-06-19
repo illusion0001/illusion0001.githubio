@@ -36,7 +36,7 @@ In file `eboot.bin`
 
 This isn't very useful right now because it breaks occlusion on Base Console. (See notes)
 
-Pro works fine (reported by tester.)
+Pro works (reported by tester.)
 
 **Must be used with [framerate patch](#60-fps-unlock)**!
 
@@ -83,6 +83,34 @@ In file `eboot.bin`
 48 B9 80 0C 00 00 08 07 00 00
 
 48 B9 40 06 00 00 84 03 00 00
+```
+
+</details>
+
+## Disable Temporal Upscale
+
+**Must be used with [resolution patch](#resolution-patch)**
+
+In file `eboot.bin`
+
+<details>
+<summary>Code 1.00 (Click to Expand)</summary>
+
+```
+C6 05 0E B5 02 02 01
+
+C6 05 0E B5 02 02 00
+```
+
+</details>
+
+<details>
+<summary>Code 1.12 (Click to Expand)</summary>
+
+```
+C6 05 98 D3 19 02 01
+
+C6 05 98 D3 19 02 00
 ```
 
 </details>
