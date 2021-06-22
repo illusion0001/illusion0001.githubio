@@ -5,9 +5,9 @@ permalink: pretty
 
 # THEME-SPECIFIC CONFIGURATION
 title: illusion's Blog
-description: "illusion's Personal Blog."                # used by search engines
+description: ""                                          # used by search engines
 avatar: assets/icons/favicon.png                         # Empty for no avatar in navbar
-favicon: assets/favicon.ico                             # Icon displayed in the tab
+favicon: assets/icons/favicon.png                        # Icon displayed in the tab
 
 # Header and footer text
 header_text: Detailing the inner workings of my creations.
@@ -25,9 +25,9 @@ post_navigation: true
 # For layout customization, go to the "_sass > base" folder, and check "_variables.scss"
 katex: true                                             # Enable if using math markup
 mermaid: true                                           # Enable mermaid-js for sequence and diagrams
-google_analytics:                                       # Tracking ID, e.g. "UA-000000-01"
+google_analytics: UA-189385610-1                        # Tracking ID, e.g. "UA-000000-01"
 cookie_consent: false                                   # To respect the usage of cookies
-color_theme: auto                                       # auto, dark or light
+color_theme: dark                                       # auto, dark or light
 
 # Comments
 comments:
