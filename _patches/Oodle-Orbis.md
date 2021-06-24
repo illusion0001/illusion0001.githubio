@@ -2,9 +2,7 @@
 
 ## 60 FPS Unlock
 
-This isn't very useful right now because it only unlocks the framerate, nothing more.
-
-GPU limited in normal gameplay.
+[Article](https://illusion0001.github.io/patches/2021/06/27/oodle-res-framerate-patches/)
 
 In file `eboot.bin`
 
@@ -19,13 +17,9 @@ CF 01 00 C7 C3 01 00 00 00
 
 </details>
 
-## Resolution Patch (Non Working)
+## Resolution Patch
 
-Borked! Won't boot below pre defined res.
-
-Only for developers.
-
-1920x1080 only.
+[Article](https://illusion0001.github.io/patches/2021/06/27/oodle-res-framerate-patches/)
 
 In file `eboot.bin`
 
@@ -33,15 +27,45 @@ In file `eboot.bin`
 <summary>Code 1.02 (Click to Expand)</summary>
 
 ```
-41 8B 84 24 4C 01 00 00 41 8B 8C 24 50 01 00 00 48
+# launch param -use720p
+# "Use 720p resolution in fullscreen mode"
+# SDK limits not letting us go below 720p.
 
-# 1920x1080 // default, game will boot.
+FC FF FF A8 80 74 41
 
-48 C7 C0 80 07 00 00 48 C7 C1 38 04 00 00 90 90 48
+FC FF FF A8 80 75 41
 
-# 1600x900 // game won't boot.
+# launch param -use4k
+# "Use 4K resolution in fullscreen mode"
+# SDK limits might come back to haunt us.
 
-48 C7 C0 40 06 00 00 48 C7 C1 84 03 00 00 90 90 48
+EB 41 F6 C4 02 74 46
+
+EB 41 F6 C4 02 75 46
+```
+
+</details>
+
+## 16:9 Aspect Ratio (Full Screen)
+
+[Article](https://illusion0001.github.io/patches/2021/06/27/oodle-res-framerate-patches/)
+
+In file `eboot.bin`
+
+<details>
+<summary>Code 1.02 (Click to Expand)</summary>
+
+```
+# Native 1080p will cause visual issues, 900p or below must be used.
+# 720p doesn't need additional changes.
+
+75 41 C7 85 84 FC FF FF 00 05 00 00 C7 85 88 FC FF FF D0 02 00 00
+
+75 41 C7 85 84 FC FF FF 40 06 00 00 C7 85 88 FC FF FF 84 03 00 00
+
+C7 85 18 FC FF FF 9A 99 19 40
+
+C7 85 18 FC FF FF 39 8E E3 3F
 ```
 
 </details>
