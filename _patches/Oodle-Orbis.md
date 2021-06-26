@@ -35,6 +35,15 @@ FC FF FF A8 80 74 41
 
 FC FF FF A8 80 75 41
 
+# For 16:9 to work; 1080p will cause visual issues
+# 900p or below is a must.
+# 720p doesn't need additional changes.
+# 1280x720 -> 1600x900
+
+75 41 C7 85 84 FC FF FF 00 05 00 00 C7 85 88 FC FF FF D0 02 00 00
+
+75 41 C7 85 84 FC FF FF 40 06 00 00 C7 85 88 FC FF FF 84 03 00 00
+
 # launch param -use4k
 # "Use 4K resolution in fullscreen mode"
 # SDK limits might come back to haunt us.
@@ -58,10 +67,6 @@ In file `eboot.bin`
 ```
 # Native 1080p will cause visual issues, 900p or below must be used.
 # 720p doesn't need additional changes.
-
-75 41 C7 85 84 FC FF FF 00 05 00 00 C7 85 88 FC FF FF D0 02 00 00
-
-75 41 C7 85 84 FC FF FF 40 06 00 00 C7 85 88 FC FF FF 84 03 00 00
 
 C7 85 18 FC FF FF 9A 99 19 40
 
