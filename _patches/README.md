@@ -14,6 +14,8 @@ This directory list game improvement patches made for use with exploited PlaySta
 
 [Final Fantasy VII: Remake](FF7R-Orbis.md)
 
+[Hellblade: Senua's Sacrifice](HellbladeGame-Orbis.md)
+
 [What Remains of Edith Finch](finchgame-Orbis.md)
 
 [Ghost Of Tsushima](GhostOfTsushima-Orbis.md)
