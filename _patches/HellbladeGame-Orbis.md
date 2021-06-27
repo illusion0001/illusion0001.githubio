@@ -42,8 +42,28 @@ C7 00 00 00 86 42 C3 89
 # 900p target
 C7 00 F6 A8 A6 42 C3 89
 
+# 50.0f  = 00 00 48 42
 # 67.0f  = 00 00 86 42
 # 83.33f = F6 A8 A6 42
+```
+
+</details>
+
+## Skip Startup Videos
+
+[Demo](https://cdn.discordapp.com/attachments/650395105479360514/858528041557557278/SkipMovieDemo.mp4)
+
+Curiously enough, it makes no difference in loading times.
+
+In file `eboot.bin`
+
+<details>
+<summary>Code 1.02 (Click to Expand)</summary>
+
+```
+48 83 BF A0 00 00 00 00 0F 85 87 06 00 00
+
+48 83 BF A0 00 00 00 00 48 E9 87 06 00 00
 ```
 
 </details>
