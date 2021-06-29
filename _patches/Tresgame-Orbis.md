@@ -2,6 +2,8 @@
 
 ## 720p Resolution
 
+Author: [illusion](https://github.com/illusion0001)
+
 Only useful for base console.
 
 You may modifiy this to 50% for Pro console for (almost) 60FPS in 4k output mode, otherwise set output to 1080p and disable supersampling.

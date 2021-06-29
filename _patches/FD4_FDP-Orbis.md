@@ -2,6 +2,8 @@
 
 ## 60FPS Unlock
 
+Author: [illusion](https://github.com/illusion0001)
+
 Only useful for base console.
 
 You must apply FPS Unlock patch to take effect on Base Console.
@@ -28,6 +30,8 @@ EB 0E E8 03 81 2F 01
 </details>
 
 ## 720p Resolution
+
+Author: [illusion](https://github.com/illusion0001)
 
 In file `eboot.bin`
 

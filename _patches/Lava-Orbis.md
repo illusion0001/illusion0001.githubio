@@ -2,6 +2,8 @@
 
 ## Resolution Patch
 
+Author: [illusion](https://github.com/illusion0001)
+
 This game runs with an uncapped framerate on Orbis. Same can't be said for Durango though.
 
 In file `eboot.bin`

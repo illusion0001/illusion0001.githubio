@@ -2,6 +2,8 @@
 
 ## 720p Resolution
 
+Author: [illusion](https://github.com/illusion0001)
+
 Only useful for base console.
 
 Pro already hits target framerate at it's default resolution setting.

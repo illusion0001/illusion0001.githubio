@@ -1,10 +1,8 @@
 # The Last of Us: Part II
 
-To apply patch:
-
-PS4: Open decrypted executable (eboot.bin) in hexeditor and search for first line and replace with second line. Repeat the same for remaining codes.
-
 ## Improved Inf Ammo
+
+Author: [illusion](https://github.com/illusion0001)
 
 [Article](https://illusion0001.github.io/cheatcodes/2021/03/20/t2-silencer-cheat/)
 

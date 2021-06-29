@@ -2,6 +2,8 @@
 
 ## 60 FPS
 
+Author: [illusion](https://github.com/illusion0001)
+
 Patch version: 1.1
 
 - Added support for PS4 Pro.
@@ -79,6 +81,8 @@ In file `eboot.bin`
 </details>
 
 ## Disable Motion Blur
+
+Author: [illusion](https://github.com/illusion0001)
 
 In file `eboot.bin`
 

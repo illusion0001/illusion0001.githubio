@@ -2,6 +2,8 @@
 
 ## 60 FPS + Resolution Patch (ASM Ver.)
 
+Author: [illusion](https://github.com/illusion0001)
+
 In file `eboot.bin`
 
 <details>
@@ -48,6 +50,8 @@ Below are **optional** config ini tweaks. If you only want resolution and framer
 
 ## 60 FPS Patch
 
+Author: [illusion](https://github.com/illusion0001)
+
 [Article](https://illusion0001.github.io/patches/2021/05/20/ff7r-end-60fps/)
 
 In file `...\end\content\paks\pakchunk0-ps4.pak`
@@ -81,6 +85,8 @@ rhi.SyncInterval=1 ; 60hz
 </details>
 
 ## Dynamic Resolution Patch
+
+Author: [illusion](https://github.com/illusion0001), [FlyingBananaTree](https://github.com/FlyingBananaTree), [dontellmama](https://github.com/dontellmama)
 
 [Article](https://illusion0001.github.io/patches/2021/05/20/ff7r-end-60fps/)
 
@@ -163,6 +169,8 @@ r.DynamicRes.MaxScreenPercentage=100 ; highest is 1620p
 
 ## Disable Dynamic Resolution Patch (Optional)
 
+Author: [illusion](https://github.com/illusion0001)
+
 In file `...\end\content\paks\pakchunk0-ps4.pak`
 
 <details>
@@ -199,6 +207,8 @@ r.DynamicRes.OperationMode=0
 </details>
 
 ## Texture Streaming Improvements
+
+Author: [dontellmama](https://github.com/dontellmama)
 
 May cause out of memory. Use at your own risk.
 
@@ -242,9 +252,7 @@ MemoryMargin=10
 
 ## Optional Graphical Patches
 
-Additional Patches by [@dontellmama](https://github.com/dontellmama)
-
-[Source](https://github.com/dontellmama/Improve-Final-Fantasy-VII-Remake/blob/d9ac423934da27aff97aa512df47906016b8c3d3/README.md).
+Author: [dontellmama](https://github.com/dontellmama)
 
 These will need to be added manually and cannot be done in hex editor.
 

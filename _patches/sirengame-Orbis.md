@@ -2,6 +2,8 @@
 
 ## Resolution Patch
 
+Author: [illusion](https://github.com/illusion0001)
+
 This patch was made and tested on Base Hardware. not sure if PS4 Pro outputs at 4K or 1080, experiment for yourself what works best.
 
 In file `eboot.bin`

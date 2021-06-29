@@ -2,6 +2,8 @@
 
 ## 60 FPS
 
+Author: [illusion](https://github.com/illusion0001)
+
 [Article](https://illusion0001.github.io/patches/2021/05/11/wif-dawn-60fps/)
 
 CUSA08487, may work for other versions too.

@@ -2,6 +2,8 @@
 
 ## 60 FPS Unlock
 
+Author: [illusion](https://github.com/illusion0001)
+
 This isn't very useful right now because it only unlocks the framerate, nothing more.
 
 GPU limited in normal gameplay, meaning you won't go above 32~fps without looking at the sky.
@@ -33,6 +35,8 @@ In file `eboot.bin`
 </details>
 
 ## Resolution Patch
+
+Author: [illusion](https://github.com/illusion0001)
 
 This isn't very useful right now because it breaks occlusion on Base Console. (See notes)
 

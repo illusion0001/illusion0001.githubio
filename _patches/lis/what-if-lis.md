@@ -2,6 +2,8 @@
 
 ## 60 FPS (CUSA03279)
 
+Author: [illusion](https://github.com/illusion0001)
+
 [Article](https://illusion0001.github.io/patches/2021/05/11/wif-dawn-60fps/)
 
 [Example of CPU Limited Scenario](https://cdn.discordapp.com/attachments/650395105479360514/840144551825244180/20210507_191348_00757258.png)
@@ -33,6 +35,8 @@ C3 C7 40 0C 00 00 00 3E C5 FA 10 40 0C C6 40 1C 00 C3 00 00 48 8B 0D 15
 </details>
 
 ## 60 FPS (CUSA01442)
+
+Author: [illusion](https://github.com/illusion0001)
 
 In file `eboot.bin`
 

@@ -2,6 +2,8 @@
 
 ## Resolution Patch
 
+Author: [illusion](https://github.com/illusion0001)
+
 [Framerate analysis](https://youtu.be/DO8zPsX_ahE)
 
 This game already runs with uncapped framerate.
@@ -36,7 +38,7 @@ E8 0C E1 49 01 90 90 90 90 90 90 90 90 90 90 90 90 C3 48 8B 05 C8 72 E1 02 C7 00
 # 540p target
 C7 00 00 00 48 42 C3 89
 
-# 720p target // default, search for this, replace with others
+# 720p target // default, search for this, then replace with others
 C7 00 00 00 86 42 C3 89
 
 # 900p target
@@ -50,6 +52,8 @@ C7 00 F6 A8 A6 42 C3 89
 </details>
 
 ## Skip Startup Videos
+
+Author: [illusion](https://github.com/illusion0001)
 
 [Demo](https://cdn.discordapp.com/attachments/650395105479360514/858528041557557278/SkipMovieDemo.mp4)
 

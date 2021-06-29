@@ -5,6 +5,8 @@
 
 ## 60 FPS
 
+Author: [illusion](https://github.com/illusion0001)
+
 [Article](https://illusion0001.github.io/patches/2021/04/29/pt-60fps/)
 
 Not very useful without resolution hack on PS4, Might be useful in the future for PS5 Hardware.
@@ -25,6 +27,8 @@ be 00 00 00 00 e8 f3 51 2b 00
 </details>
 
 ## Resolution Hack (Borked)
+
+Author: [illusion](https://github.com/illusion0001)
 
 In file `eboot.bin`
 

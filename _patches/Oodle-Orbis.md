@@ -2,6 +2,8 @@
 
 ## 60 FPS Unlock
 
+Author: [illusion](https://github.com/illusion0001)
+
 [Article](https://illusion0001.github.io/patches/2021/06/27/oodle-res-framerate-patches/)
 
 In file `eboot.bin`
@@ -18,6 +20,8 @@ CF 01 00 C7 C3 01 00 00 00
 </details>
 
 ## Resolution Patch
+
+Author: [illusion](https://github.com/illusion0001)
 
 [Article](https://illusion0001.github.io/patches/2021/06/27/oodle-res-framerate-patches/)
 
@@ -56,6 +60,8 @@ EB 41 F6 C4 02 75 46
 </details>
 
 ## 16:9 Aspect Ratio (Full Screen)
+
+Author: [illusion](https://github.com/illusion0001)
 
 [Article](https://illusion0001.github.io/patches/2021/06/27/oodle-res-framerate-patches/)
 

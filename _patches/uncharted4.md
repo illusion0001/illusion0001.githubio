@@ -6,6 +6,8 @@ PS4: Open decrypted executable (eboot.bin) in hexeditor and search for first lin
 
 ## Dev Menu
 
+Author: [illusion](https://github.com/illusion0001)
+
 In file `eboot.bin`
 
 <details>
@@ -21,6 +23,8 @@ F6 C2 01 75 34 84 C9 75 30
 </details>
 
 ## Custom Resolution
+
+Author: [illusion](https://github.com/illusion0001)
 
 [Article](https://illusion0001.github.io/patches/2021/04/16/u4-60fps-dream/)
 

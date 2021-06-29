@@ -2,6 +2,8 @@
 
 ## 60 FPS
 
+Author: [illusion](https://github.com/illusion0001), [ZEROx](https://github.com/Xcedf)
+
 Patch may accelerate some game effects by 2x.
 
 Game will softlock at centain places with 60FPS Patch enabled. Be sure to frequently save and switch to 30FPS with X + DPad Down to progress further.
