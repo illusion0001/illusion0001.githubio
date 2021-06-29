@@ -36,7 +36,7 @@ E8 0C E1 49 01 90 90 90 90 90 90 90 90 90 90 90 90 C3 48 8B 05 C8 72 E1 02 C7 00
 # 540p target
 C7 00 00 00 48 42 C3 89
 
-# 720p target
+# 720p target // default, search for this, replace with others
 C7 00 00 00 86 42 C3 89
 
 # 900p target
