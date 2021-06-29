@@ -67,3 +67,18 @@ In file `eboot.bin`
 ```
 
 </details>
+
+## Disable Motion Blur
+
+In file `eboot.bin`
+
+<details>
+<summary>Code 1.02 (Click to Expand)</summary>
+
+```
+66 A9 01 10 75 40
+
+66 A9 01 10 EB 40
+```
+
+</details>
