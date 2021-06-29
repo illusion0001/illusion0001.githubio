@@ -12,6 +12,8 @@ This directory list game improvement patches made for use with exploited PlaySta
 
 [Dark Souls III: The Fire Fades Edition](FD4_FDP-Orbis.md)
 
+[Dishonored: Definitive Edition](DishonoredGame-Orbis.md)
+
 [Final Fantasy VII: Remake](FF7R-Orbis.md)
 
 [Hellblade: Senua's Sacrifice](HellbladeGame-Orbis.md)
