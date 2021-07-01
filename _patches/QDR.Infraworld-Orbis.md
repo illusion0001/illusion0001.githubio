@@ -4,6 +4,8 @@
 
 Author: [illusion](https://github.com/illusion0001)
 
+[Article](https://illusion0001.github.io/patches/2021/07/01/QDR.Infraworld-Res-Letterbox-Patch/)
+
 In file `eboot.bin`
 
 <details>
@@ -21,6 +23,8 @@ B9 00 00 00 00 E8 B2 BA 31 00
 
 Author: [illusion](https://github.com/illusion0001)
 
+[Article](https://illusion0001.github.io/patches/2021/07/01/QDR.Infraworld-Res-Letterbox-Patch/)
+
 In file `eboot.bin`
 
 <details>
@@ -37,6 +41,8 @@ In file `eboot.bin`
 ## Resolution Patch
 
 Author: [illusion](https://github.com/illusion0001)
+
+[Article](https://illusion0001.github.io/patches/2021/07/01/QDR.Infraworld-Res-Letterbox-Patch/)
 
 In file `eboot.bin`
 
