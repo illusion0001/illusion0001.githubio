@@ -1,16 +1,21 @@
 ---
 layout: default
 ---
-<article {% if page.feature-img or page.color %}class="feature-image" {% endif %}>
-  <header id="main" style="">
-    <div class="title-padder">
-      {% if page.hide_title %}
-      <div class="feature-image-padding"></div>
-      {% else %}
-      <h1 id="{{ page.title | cgi_escape }}" class="title">{{ page.title }}</h1>
-      {% include blog/post_info.html author=page.author date=page.date %}
-      {% endif %}
-    </div>
+<article class="feature-image">
+  <header id="main"
+    {% if page.feature-img %}
+    style="background-image: url('{{ page.feature-img | relative_url }}')"
+    {% else %}
+    style="background-size: auto; background-image: url('{{ site.theme_settings.header_feature_image | relative_url }}')"
+    {% endif %} 
+   >
+  {% if page.hide_title %}
+  <div class="feature-image-padding"></div>
+  {% else %}
+  <h1 id="{{ page.title | cgi_escape }}" class="title">{{ page.title }}</h1>
+  {% include blog/post_info.html author=page.author date=page.date %}
+  {% endif %}
+    </p>
   </header>
 
   <section class="post-content">
@@ -48,7 +53,7 @@ layout: default
 {% include social/disqus.html %}{% endif %}
 
 <!-- To change color of links in the page -->
-<style>
+<!-- <style>
   header#main {
       background-size: cover;
       background-repeat: no-repeat;
@@ -69,4 +74,4 @@ layout: default
   {% if page.feature-img %}
   header#main { background-image: url('{{ page.feature-img | relative_url }}'); }
   {% endif %}
-</style>
+</style> -->
