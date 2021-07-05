@@ -4,6 +4,8 @@ This directory list game improvement patches made for use with exploited PlaySta
 
 [Batman: Arkham Knight](BmGame4Orbis.md)
 
+[Beyond: Two Souls](QDR.Infraworld-Orbis.md)
+
 [Concrete Genie](ConcreteGenie-Orbis.md)
 
 [Crash Bandicoot N. Sane Trilogy](mack-long-Orbis.md)
