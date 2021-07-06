@@ -2,7 +2,7 @@
 
 ## 60 FPS Unlock
 
-[Article]
+[Article](https://illusion0001.github.io/patches/2021/07/07/W3Witcher-ResPatch/)
 
 Author: [illusion](https://github.com/illusion0001)
 
@@ -23,7 +23,7 @@ B9 00 05 00 00 41 B8 D0 02 00 00
 
 Currently for Base Console, Pro Backbuffer is included but untested.
 
-[Article]
+[Article](https://illusion0001.github.io/patches/2021/07/07/W3Witcher-ResPatch/)
 
 Author: [illusion](https://github.com/illusion0001)
 
@@ -51,7 +51,7 @@ B9 80 07 00 00 41 B8 70 08 00 00
 
 Author: [illusion](https://github.com/illusion0001)
 
-[Article]
+[Article](https://illusion0001.github.io/patches/2021/07/07/W3Witcher-ResPatch/)
 
 In file `eboot.bin`
 
