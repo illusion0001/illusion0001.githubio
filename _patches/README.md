@@ -42,6 +42,8 @@ This directory list game improvement patches made for use with exploited PlaySta
 
 [The Last of Us: Part II](tlou2.md)
 
+[The Witcher 3](W3Witcher-Orbis.md)
+
 [Kingdom Hearts: III](Tresgame-Orbis.md)
 
 [Uncharted: The Nathan Drake Collection](uncharted-collection.md)
