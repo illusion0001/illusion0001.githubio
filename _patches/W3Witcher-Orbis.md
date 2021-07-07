@@ -12,9 +12,9 @@ In file `eboot.bin`
 <summary>Code for 1.62 (Click to Expand)</summary>
 
 ```
-B9 80 07 00 00 41 B8 38 04 00 00
+BE 01 00 00 00 E8 7A E2 BC 00
 
-B9 00 05 00 00 41 B8 D0 02 00 00
+BE 00 00 00 00 E8 7A E2 BC 00
 ```
 
 </details>
