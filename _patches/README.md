@@ -40,6 +40,8 @@ This directory list game improvement patches made for use with exploited PlaySta
 
 [The Order 1886](Oodle-Orbis.md)
 
+[The Outer Worlds](Indiana-Orbis.md)
+
 [The Last of Us](tlou1.md)
 
 [The Last of Us: Part II](tlou2.md)
