@@ -1,6 +1,6 @@
 # Judgement
 
-## 60FPS Unlock
+## 60FPS Unlock (CUSA13197)
 
 Author: [illusion](https://github.com/illusion0001)
 
@@ -19,6 +19,22 @@ All version uses disc executable.
 
 </details>
 
+## 60FPS Unlock (CUSA15953)
+
+Author: [illusion](https://github.com/illusion0001)
+
+In file `eboot.bin`
+
+<details>
+<summary>Code 1.08 (Click to Expand)</summary>
+
+```
+39 B7 E8 01 00 00 74 2A 48 8B 44 24 48
+
+39 B7 E8 01 00 00 75 2A 48 8B 44 24 48
+```
+
+</details>
 
 ## Resolution Patch (Experimental)
 
