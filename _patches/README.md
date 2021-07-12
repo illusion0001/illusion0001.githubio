@@ -2,6 +2,8 @@
 
 This directory list game improvement patches made for use with exploited PlayStation 4 consoles.
 
+[Assassin's Creed: The Ezio Collection](Scimitar-Orbis.md)
+
 [Batman: Arkham Knight](BmGame4Orbis.md)
 
 [Beyond: Two Souls](QDR.Infraworld-Orbis.md)
