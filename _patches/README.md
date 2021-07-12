@@ -18,6 +18,8 @@ This directory list game improvement patches made for use with exploited PlaySta
 
 [Dishonored: Definitive Edition](DishonoredGame-Orbis.md)
 
+[Far Cry 3](FC3-Orbis.md)
+
 [Final Fantasy VII: Remake](FF7R-Orbis.md)
 
 [Heavy Rain](HRPS4-Orbis.md)
