@@ -22,6 +22,8 @@ This directory list game improvement patches made for use with exploited PlaySta
 
 [Final Fantasy VII: Remake](FF7R-Orbis.md)
 
+[Grand Theft Auto V](GTA5-Orbis.md)
+
 [Heavy Rain](HRPS4-Orbis.md)
 
 [Hellblade: Senua's Sacrifice](HellbladeGame-Orbis.md)
