@@ -1,10 +1,8 @@
 # Grand Theft Auto V
 
-## Unlock FPS (CUSA00411)
+## 60FPS Unlock
 
-Completely unlocks Framerate.
-
-[Video](https://media.discordapp.net/attachments/474327933700276234/864138722719039548/0_45.mp4)
+[Video](https://youtu.be/lLjj_0VBf7w)
 
 Author: [illusion](https://github.com/illusion0001)
 
@@ -18,14 +16,15 @@ BF 02 00 00 00 31 F6 E8 87 67 CB 00
 
 BF 01 00 00 00 31 F6 E8 87 67 CB 00
 
-# do not apply code below
-# this will introduce screen tear when param is loaded with 0
+##### do not apply code below
+# this will introduce screen tear when param above is loaded with 0
 # 2 will become 20hz
 # 1 becomes 30hz
 # 0 is unlocked
 # code will skip sceVideoOutSetFlipRate
 # 0F 44 F7 8B 3D B8 6D A4 01 E9 93 52 A6 00
 # 0F 45 F7 8B 3D B8 6D A4 01 E9 93 52 A6 00
+#####
 ```
 
 </details>
@@ -38,14 +37,15 @@ BF 02 00 00 00 31 F6 E8 E7 69 DE 00
 
 BF 01 00 00 00 31 F6 E8 E7 69 DE 00
 
-# do not apply code below
-# this will introduce screen tear when param is loaded with 0
+##### do not apply code below
+# this will introduce screen tear when param above is loaded with 0
 # 2 will become 20hz
 # 1 becomes 30hz
 # 0 is unlocked
 # code will skip sceVideoOutSetFlipRate
 # 0F 44 F7 8B 3D A8 95 11 02 E9 53 5A C8 00
 # 0F 45 F7 8B 3D A8 95 11 02 E9 53 5A C8 00
+#####
 ```
 
 </details>
