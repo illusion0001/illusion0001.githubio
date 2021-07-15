@@ -44,6 +44,8 @@ This directory list game improvement patches made for use with exploited PlaySta
 
 [Silent Hills: P.T.](shgame-pt.md)
 
+[SnowRunner](SnowRunner-Orbis.md)
+
 [The Order 1886](TO1886-Orbis.md)
 
 [The Outer Worlds](Indiana-Orbis.md)
