@@ -36,6 +36,8 @@ This directory list game improvement patches made for use with exploited PlaySta
 
 [Rime](sirengame-Orbis.md)
 
+[Red Dead Redemption 2](RDR3-Orbis.md)
+
 [inFAMOUS Second Son](iss-Orbis.md)
 
 [inFAMOUS First Light](ifl-Orbis.md)
