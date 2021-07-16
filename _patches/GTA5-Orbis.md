@@ -4,6 +4,8 @@
 
 [Video](https://youtu.be/lLjj_0VBf7w)
 
+CPU Limited. For use with Prospero.
+
 Author: [illusion](https://github.com/illusion0001)
 
 In file `eboot.bin`

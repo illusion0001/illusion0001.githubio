@@ -2,6 +2,8 @@
 
 ## 60FPS Unlock
 
+CPU Limited. For use with Prospero.
+
 This game uses double buffer vsync.
 
 Author: [illusion](https://github.com/illusion0001)

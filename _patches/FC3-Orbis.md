@@ -2,6 +2,8 @@
 
 ## 60FPS
 
+CPU Limited.
+
 Author: [illusion](https://github.com/illusion0001)
 
 In file `eboot.bin`

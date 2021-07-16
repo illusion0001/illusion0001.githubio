@@ -2,6 +2,8 @@
 
 ## 60FPS Unlock
 
+CPU Limited. For use with Prospero.
+
 Author: [illusion](https://github.com/illusion0001)
 
 In file `eboot.bin`
