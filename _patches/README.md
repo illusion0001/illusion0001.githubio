@@ -20,6 +20,14 @@ This directory list game improvement patches made for use with exploited PlaySta
 
 [Far Cry 3](FC3-Orbis.md)
 
+[Far Cry 4](FC4-Orbis.md)
+
+[Far Cry 5](FC5-Orbis.md)
+
+[Far Cry Primal](FCP-Orbis.md)
+
+[Far Cry New Dawn](FC-ND-Orbis.md)
+
 [Final Fantasy VII: Remake](FF7R-Orbis.md)
 
 [Grand Theft Auto V](GTA5-Orbis.md)
