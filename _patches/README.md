@@ -18,6 +18,8 @@ This directory list game improvement patches made for use with exploited PlaySta
 
 [Dishonored: Definitive Edition](DishonoredGame-Orbis.md)
 
+[Dishonored 2](Dishonored2-Orbis.md)
+
 [Far Cry 3](FC3-Orbis.md)
 
 [Far Cry 4](FC4-Orbis.md)
