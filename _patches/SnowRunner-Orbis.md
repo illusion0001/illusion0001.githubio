@@ -1,6 +1,6 @@
 # SnowRunner
 
-## 60FPS Unlock
+## 60 FPS Unlock
 
 CPU Limited. For use with Prospero.
 

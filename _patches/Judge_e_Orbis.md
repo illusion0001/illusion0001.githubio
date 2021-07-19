@@ -1,6 +1,6 @@
 # Judgement
 
-## 60FPS Unlock (CUSA13197)
+## 60 FPS Unlock (CUSA13197)
 
 Author: [illusion](https://github.com/illusion0001)
 
@@ -19,7 +19,7 @@ All version uses disc executable.
 
 </details>
 
-## 60FPS Unlock (CUSA15953)
+## 60 FPS Unlock (CUSA15953)
 
 Author: [illusion](https://github.com/illusion0001)
 

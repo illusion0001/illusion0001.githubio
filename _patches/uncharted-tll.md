@@ -4,7 +4,7 @@ To apply patch:
 
 PS4: Open decrypted executable (eboot.bin) in hexeditor and search for first line and replace with second line. Repeat the same for remaining codes.
 
-## 720p + 60FPS Unlock
+## 720p + 60 FPS Unlock
 
 Author: [illusion](https://github.com/illusion0001)
 

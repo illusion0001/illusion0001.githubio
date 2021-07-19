@@ -1,6 +1,6 @@
 # Concrete Genie
 
-## 60 FPS
+## 60 FPS Unlock
 
 Author: [illusion](https://github.com/illusion0001)
 

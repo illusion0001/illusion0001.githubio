@@ -1,6 +1,6 @@
 # Grand Theft Auto V
 
-## 60FPS Unlock
+## 60 FPS Unlock
 
 [Video](https://youtu.be/lLjj_0VBf7w)
 

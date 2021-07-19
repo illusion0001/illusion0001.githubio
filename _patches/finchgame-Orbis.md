@@ -1,6 +1,6 @@
 # What Remains of Edith Finch
 
-## 60FPS Unlock
+## 60 FPS Unlock
 
 Author: [illusion](https://github.com/illusion0001)
 

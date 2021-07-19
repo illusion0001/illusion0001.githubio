@@ -1,6 +1,6 @@
 # Dishonored: Definitive Edition
 
-## 60FPS (CUSA02218)
+## 60 FPS Unlock (CUSA02218)
 
 Author: [illusion](https://github.com/illusion0001)
 

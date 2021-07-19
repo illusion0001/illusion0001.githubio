@@ -1,6 +1,6 @@
 # Persona 5: Royal
 
-## 60 FPS
+## 60 FPS Unlock
 
 Author: [illusion](https://github.com/illusion0001), [ZEROx](https://github.com/Xcedf)
 

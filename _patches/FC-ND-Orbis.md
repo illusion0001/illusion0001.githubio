@@ -1,6 +1,6 @@
 # Fry Cry New Dawn
 
-## 60FPS
+## 60 FPS Unlock
 
 CPU+GPU Limited. For use with Prospero.
 

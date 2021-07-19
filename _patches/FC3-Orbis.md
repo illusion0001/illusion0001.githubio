@@ -1,6 +1,6 @@
 # Fry Cry 3
 
-## 60FPS
+## 60 FPS Unlock
 
 CPU Limited.
 

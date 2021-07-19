@@ -1,6 +1,6 @@
 # Final Fantasy VII: Remake
 
-## 60 FPS + Resolution Patch (ASM Ver.)
+## 60 FPS Unlock + Resolution Patch (ASM Ver.)
 
 Author: [illusion](https://github.com/illusion0001)
 

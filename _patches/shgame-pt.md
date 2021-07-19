@@ -3,7 +3,7 @@
 - [x] Framerate Unlock
 - [x] 720p Internal Resolution (Currently borked)
 
-## 60 FPS
+## 60 FPS Unlock
 
 Author: [illusion](https://github.com/illusion0001)
 

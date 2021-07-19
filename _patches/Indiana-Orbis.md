@@ -1,6 +1,6 @@
 # The Outer Worlds
 
-## 60FPS + Resolution Patch (CUSA13689)
+## 60 FPS Unlock + Resolution Patch (CUSA13689)
 
 Author: [illusion](https://github.com/illusion0001)
 

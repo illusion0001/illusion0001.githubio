@@ -1,6 +1,6 @@
 # Life is Strange
 
-## 60 FPS (CUSA03279)
+## 60 FPS Unlock (CUSA03279)
 
 Author: [illusion](https://github.com/illusion0001)
 
@@ -34,7 +34,7 @@ C3 C7 40 0C 00 00 00 3E C5 FA 10 40 0C C6 40 1C 00 C3 00 00 48 8B 0D 15
 
 </details>
 
-## 60 FPS (CUSA01442)
+## 60 FPS Unlock (CUSA01442)
 
 Author: [illusion](https://github.com/illusion0001)
 

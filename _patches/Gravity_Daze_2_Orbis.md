@@ -1,6 +1,6 @@
 # Gravity Rush 2
 
-## 60FPS Unlock (NON-WORKING) (WORK-IN-PROGRESS)
+## 60 FPS Unlock (NON-WORKING) (WORK-IN-PROGRESS)
 
 ```
 Help wanted! Find a way to disable internal frame limter.

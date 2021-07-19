@@ -1,10 +1,10 @@
 # Crash Bandicoot N. Sane Trilogy
 
-## 60FPS Unlock
+## 60 FPS Unlock
 
 Author: [illusion](https://github.com/illusion0001)
 
-Uses double buffer causes hardlock to 30, 40 and 60FPS.
+Uses double buffer vsync.
 
 Not useful at the moment.
 

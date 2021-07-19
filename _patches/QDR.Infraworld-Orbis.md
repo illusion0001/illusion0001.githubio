@@ -1,6 +1,6 @@
 # Beyond: Two Souls
 
-## 60FPS
+## 60 FPS Unlock
 
 Author: [illusion](https://github.com/illusion0001)
 

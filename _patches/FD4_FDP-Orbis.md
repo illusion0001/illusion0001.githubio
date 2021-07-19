@@ -1,6 +1,6 @@
 # Dark Souls III: The Fire Fades Edition
 
-## 60FPS Unlock
+## 60 FPS Unlock
 
 Author: [illusion](https://github.com/illusion0001)
 
