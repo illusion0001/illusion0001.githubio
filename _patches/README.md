@@ -14,6 +14,8 @@ This directory list game improvement patches made for use with exploited PlaySta
 
 [Crash Bandicoot 4: It's About Time](Lava-Orbis.md)
 
+[Crysis: Remastered](CrysisRemastered-Orbis.md)
+
 [Dark Souls III: The Fire Fades Edition](FD4_FDP-Orbis.md)
 
 [Dishonored: Definitive Edition](DishonoredGame-Orbis.md)
@@ -47,6 +49,8 @@ This directory list game improvement patches made for use with exploited PlaySta
 [Rime](sirengame-Orbis.md)
 
 [Red Dead Redemption 2](RDR3-Orbis.md)
+
+[Lichdom: Battlemage](lichdomgame-orbis.md)
 
 [inFAMOUS Second Son](iss-Orbis.md)
 
