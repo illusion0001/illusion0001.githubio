@@ -40,6 +40,8 @@ This directory list game improvement patches made for use with exploited PlaySta
 
 [Hellblade: Senua's Sacrifice](HellbladeGame-Orbis.md)
 
+[Homefront: The Revolution](HF2_Tech_Orbis.md)
+
 [What Remains of Edith Finch](finchgame-Orbis.md)
 
 [Ghost Of Tsushima](GhostOfTsushima-Orbis.md)
