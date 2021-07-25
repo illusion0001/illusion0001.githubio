@@ -24,6 +24,19 @@ E8 0E F3 FF FF EB 10 CD 41 E9 58 FF FF FF
 
 E8 0E F3 FF FF EB 10 BE 01 00 00 00 EB 81
 
+# write 0 to sys_maxfps
+# this is needed because it will interfere with sceVideoOutSetFlipRate
+# engine is still trying to cap to inproper 30 fps.
+
+# call
+8B 05 86 9D A8 01
+
+48 E8 1B 32 B7 00
+
+54 6F 67 67 6C 65 73 20 73 75 6E 6C 69 67 68 74 20
+
+8B 05 65 6B F1 00 C6 05 2E 13 9B 01 00 C3 68 74 20
+
 ## notes:
 # Kernel function will provide fixed rate of update time.
 # 0x0 16.67ms -- 60hz
