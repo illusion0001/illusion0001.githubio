@@ -8,6 +8,8 @@ This directory list game improvement patches made for use with exploited PlaySta
 
 [Beyond: Two Souls](QDR.Infraworld-Orbis.md)
 
+[Bloodborne](FD4-Orbis.md)
+
 [Concrete Genie](ConcreteGenie-Orbis.md)
 
 [Crash Bandicoot N. Sane Trilogy](mack-long-Orbis.md)
